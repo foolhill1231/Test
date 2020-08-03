@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            function kaibun() {
+                var result = "";
+                var str = document.getElementById("source").value;
+                for (var i = 0 ; i < str.length; i++) {
+                    var pos = str.length - i - 1;
+                    result += str.charAt(pos);
+                }
+                document.getElementById("result").textContent = result;
+            }
+        </script>
+    </head>
+    <body>
+        <input id="source"/>
+        <button onclick="kaibun()">回文</button>
+        <p id="result"></p>
+    </body>
+</html>

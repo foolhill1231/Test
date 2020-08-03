@@ -1,0 +1,10 @@
+@charset "UTF-8";
+.news {
+	background: #f2cfcf;
+}
+img.ring-chan {
+	float: left;
+	border: 1px solid #dddddd;
+	margin: 0 20px 10px 0;
+	padding: 1px;
+}

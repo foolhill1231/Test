@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+ol#breadcrumbs li {
+	display: inline;
+	list-style-type: none;
+}
+ol#breadcrumbs li::after {
+	content: ">";
+}
+ol#breadcrumbs li:last-child:after {
+	content: "";
+}

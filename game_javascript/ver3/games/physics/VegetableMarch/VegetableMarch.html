@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>VegetableMarch</title>
+    <META charset="UTF-8">
+    <style>
+        #canvas {
+            width: 800px;
+            height: 600px;
+            touch-action: none;
+        }
+        #START {
+            position: absolute;
+            left: 200px;
+            top: 200px;
+        }
+    </style>
+    <script src="Tiny2D.js"></script>
+    <script>
+        "use strict";
+
+        var ctx, engine, veges = [], images = [];
+        var timer = NaN, startTime = NaN, elapsed = 0, score = 0;
+        var walls = [
+            [-60, -100, 100, 800],
+            [500, -100, 100, 800],
+            [-60, 520, 700, 100],
+        ];
+
+        function rand(v) {
+            return Math.floor(Math.random() * v);
+        }
+
+        function init() {
+            // エンジン初期化 & Canvas初期化
+            var canvas = document.getElementById("canvas");
+            ctx = canvas.getContext("2d");
+            ctx.font = "20pt Arial";
+            ctx.strokeStyle = "blue";
+            ctx.lineWidth = 5;
+            ctx.textAlign = "center";
+
+            engine = new Engine(-100, -100, 700, 700, 0, 9.8);
+
+            // 壁
+            walls.forEach(function (w) {
+                var r = new RectangleEntity(w[0], w[1], w[2], w[3]);
+                r.color = "gray";
+                engine.entities.push(r);
+            });
+
+            // 野菜
+            for (var i = 0 ; i < 7 ; i++) {
+                for (var j = 0 ; j < 10 ; j++) {
+                    var x = i * 60 + 75 + rand(5);
+                    var y = j * 50 + 50 + rand(5);
+                    var r = new CircleEntity(x, y, 25, BodyDynamic, 1, 0.98);
+                    r.color = rand(5);
+                    engine.entities.push(r);
+                }
+            }
+
+            for (var i = 0 ; i < 5 ; i++) {
+                images.push(document.getElementById("fruit" + i));
+            }
+
+            repaint();
+        }
+
+        function go() {
+            var canvas = document.getElementById("canvas");
+            canvas.onmousedown = mymousedown;
+            canvas.onmousemove = mymousemove;
+            canvas.onmouseup = mymouseup;
+            canvas.addEventListener('touchstart', mymousedown);
+            canvas.addEventListener('touchmove', mymousemove);
+            canvas.addEventListener('touchend', mymouseup);
+
+            document.body.addEventListener('touchmove', function (event) {
+                event.preventDefault();
+            }, false);
+            document.getElementById("START").style.display = "none";
+            document.getElementById("bgm").play();
+
+            startTime = new Date();
+            timer = setInterval(tick, 50);
+        }
+
+        /**
+         * メインループ
+         */
+        function tick() {
+            engine.step(0.01);  // 物理エンジンの時刻を進める
+
+            elapsed = ((new Date()).getTime() - startTime) / 1000;
+            if (elapsed > 57) {
+                clearInterval(timer);
+                timer = NaN;
+            }
+            repaint();          // 再描画
+        }
+
+        function mymousedown(evt) {
+            var x = !isNaN(evt.offsetX) ? evt.offsetX : evt.touches[0].clientX;
+            var y = !isNaN(evt.offsetY) ? evt.offsetY : evt.touches[0].clientY;
+            engine.entities.forEach(function (e) {
+                if (e.isHit(x, y) && e.shape == ShapeCircle) {
+                    veges.push(e);
+                    e.selected = true;
+                }
+            });
+        }
+
+        function mymousemove(evt) {
+            if (veges.length == 0) {
+                return;
+            }
+
+            var x = !isNaN(evt.offsetX) ? evt.offsetX : evt.touches[0].clientX;
+            var y = !isNaN(evt.offsetY) ? evt.offsetY : evt.touches[0].clientY;
+            var p = veges[veges.length - 1];
+
+            engine.entities.forEach(function (e) {
+                if (e.isHit(x, y) && e.shape == ShapeCircle) {
+                    if (veges.indexOf(e) < 0 && e.color == p.color) {
+                        var d2 = Math.pow(e.x - p.x, 2) + Math.pow(e.y - p.y, 2);
+                        if (d2 < 4000) {
+                            veges.push(e);
+                            e.selected = true;
+                        }
+                    }
+                }
+            });
+        }
+
+        function mymouseup(evt) {
+            if (veges.length > 1) {
+                // 選択状態の野菜を削除
+                engine.entities = engine.entities.filter(function (e) {
+                    return e.selected != true;
+                })
+
+                // 消去分を追加
+                for (var i = 0 ; i < veges.length ; i++) {
+                    var x = 75 + rand(350);
+                    var r = new CircleEntity(x, 0, 25, BodyDynamic, 1, 0.98);
+                    r.color = rand(5);
+                    engine.entities.push(r);
+                }
+                score += veges.length * 100;
+            }
+            veges.forEach(function (e) { delete e.selected })
+            veges = [];
+        }
+
+        function repaint() {
+            // 背景クリア
+            ctx.drawImage(fruitbg, 0, 0);
+
+            // 野菜
+            for (var i = 0 ; i < engine.entities.length; i++) {
+                var e = engine.entities[i];
+                var img = images[e.color];
+                if (e.shape == ShapeCircle) {
+                    ctx.drawImage(img, e.x - 28, e.y - 28, 62, 62);
+                    if (e.selected) {
+                        ctx.strokeStyle = "yellow";
+                        ctx.beginPath();
+                        ctx.arc(e.x, e.y, e.radius, 0, Math.PI * 2);
+                        ctx.closePath();
+                        ctx.stroke();
+                    }
+                }
+            }
+
+            // 線
+            if (veges.length > 0) {
+                ctx.strokeStyle = "#B1EB22";
+                ctx.beginPath()
+                ctx.moveTo(veges[0].x, veges[0].y);
+                for (var i = 1 ; i < veges.length ; i++) {
+                    ctx.lineTo(veges[i].x, veges[i].y);
+                }
+                ctx.stroke();
+            }
+
+            // メッセージ
+            ctx.save();
+            ctx.fillStyle = "#F9D79F";
+            ctx.font = "bold 24pt sans-serif";
+            ctx.font
+            ctx.translate(650, 442);
+            ctx.rotate(-0.05);
+            ctx.fillText(isNaN(timer) ? "FINISH" : "Score", 0, 0);
+            ctx.restore();
+
+            // スコア
+            ctx.save();
+            ctx.font = "bold 32pt sans-serif";
+            ctx.translate(650, 365);
+            ctx.rotate(0.08);
+            ctx.fillStyle = "#F9D79F";
+            ctx.fillText(('0000000' + score).slice(-7), 0, 0);
+            ctx.restore();
+
+            // 残り時間
+            ctx.save();
+            ctx.fillStyle = 'rgba(215, 130, 40, 0.5)';
+            ctx.beginPath();
+            ctx.moveTo(656, 153);
+            ctx.arc(656, 153, 88, -Math.PI / 2, elapsed / 57 * Math.PI * 2 - Math.PI / 2);
+            ctx.closePath();
+            ctx.fill();
+            ctx.restore();
+        }
+    </script>
+</head>
+<body onload="init()">
+    <!-- Thanks to http://takao-suenobu.com/  & http://dova-s.jp/ -->
+    <audio src="bgm.mp3" id="bgm"></audio>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <img id="START" src="start.png" onclick="go()">
+    <img id="fruitbg" src="fruitbg.png" style="display:none" />
+    <img id="fruit0" src="fruit0.png" style="display:none" />
+    <img id="fruit1" src="fruit1.png" style="display:none" />
+    <img id="fruit2" src="fruit2.png" style="display:none" />
+    <img id="fruit3" src="fruit3.png" style="display:none" />
+    <img id="fruit4" src="fruit4.png" style="display:none" />
+</body>
+</html>

@@ -1,0 +1,4 @@
+﻿<link rel="stylesheet" href="css/styles.css">
+<link rel="contents" title="目次" href="index.html">
+<link rel="prev" title="前のページ" href="about/index.html">
+<link rel="next" title="次のページ" href="news/index.html">

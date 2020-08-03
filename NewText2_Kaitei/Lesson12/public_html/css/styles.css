@@ -1,0 +1,587 @@
+@charset "utf-8";
+
+/* 基準値の指定 */
+:root {
+  font-size: 15px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: #257a01;
+  text-decoration: none;
+}
+
+a img {
+  border: none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+}
+
+/* Skip Link */
+
+.skip {
+  font-size: 0.85rem;
+  background-color: #fff;
+  padding: 0.5rem 2rem;
+}
+
+/* Header */
+
+.hm-Header {
+  /* display: block;
+  background-color: #fff; */
+  padding: 1.5rem 2rem;
+}
+
+.hm-Header a {
+  color: #444;
+}
+
+.hm-Header a:hover {
+  color: #45c80d;
+}
+
+.hm-Header_Logo {
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+/* ナビゲーションメニューのスタイル */
+.hm-Header_NavItems {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  list-style-position: outside;
+  margin: 0;
+  padding: 0;
+}
+
+.hm-Header_NavItem {
+  margin: 0 1rem 0 0;
+  text-transform: uppercase;
+}
+
+.hm-Header_NavItem:last-child {
+  margin-right: 0;
+}
+
+@media all and (min-width: 600px) {
+  /* 600px以上でFlexboxを有効にしてレイアウトを切り替える */
+  .hm-Header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hm-Header_Logo {
+    margin: 0;
+  }
+
+  /* 600px以上のナビゲーションメニューのスタイル */
+  .hm-Header_NavItem {
+    margin: 0 2rem 0 0;
+    text-transform: uppercase;
+  }
+}
+
+/* Footer */
+
+.hm-Footer {
+  display: block;
+  background-color: #f4f4f4;
+  color: #444;
+  padding: 3rem 2rem 3rem;
+  margin-top: 2rem;
+}
+
+.hm-Footer a {
+  color: #444;
+}
+
+.hm-Footer a:hover {
+  color: #45c80d;
+}
+
+.hm-Footer_NavItems {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0 0 2rem;
+  padding: 0;
+  text-align: left;
+}
+
+.hm-Footer_NavItem {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+.hm-Footer_Company {
+  line-height: 1;
+  margin: 0 0 1rem;
+}
+
+.hm-Footer_Company dt {
+  line-height: 1;
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.hm-Footer_Company dd {
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+
+.hm-Footer_Social {
+  display: flex;
+  list-style-type: none;
+  list-style-position: outside;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+}
+
+.hm-Footer_SocialItem {
+  margin: 0 0.5rem 0 0;
+}
+
+@media all and (min-width: 600px) {
+  /* 600px以上でFlexboxを有効にしてレイアウトを切り替える */
+  .hm-Footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .hm-Footer_NavItems {
+    text-align: right;
+  }
+}
+
+/* Main Content Base */
+
+/* 横幅一杯のブロックのスタイル */
+.hm-Content_Box-FullWidth {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+/* 余白ありのブロックのスタイル */
+.hm-Content_Box-Padding {
+  display: block;
+  padding: 2rem;
+}
+
+/* シングルカラムの横幅指定 */
+.hm-Content_Box-Single {
+  width: 100%;
+}
+
+.hm-Content_Box-Single p {
+  text-align: justify;
+}
+
+.hm-Content_Heading {
+  color: #555;
+  font-family: serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.hm-Content_Paragraph-Large {
+  font-family: serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #555;
+}
+
+@media all and (min-width: 600px) {
+  .hm-Content_Box-Padding {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* 600px以上ではシングルカラムの横幅を60%に上書きして適用 */
+  .hm-Content_Box-Single {
+    width: 60%;
+  }
+
+  .hm-Content_Box-FlexWrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hm-Content_Heading {
+    font-size: 1.8rem;
+  }
+
+  .hm-Content_Paragraph-Large {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+}
+
+/* Main Content Description List */
+
+.hm-Description_Items-Row {
+  display: block;
+  width: 100%;
+}
+
+/* お知らせやNEWSページのレイアウト指定 */
+.hm-Description_Title {
+  margin-bottom: 0.2rem;
+  padding: 0;
+}
+
+.hm-Description_Data {
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+.hm-Description_Data-List {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+@media all and (min-width: 600px) {
+  /* 600px以上のお知らせやNEWSページのレイアウト指定ではFlexboxを有効にして横並びに配置 */
+  .hm-Description_Items-Row {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .hm-Description_Title {
+    /* flex-basisを使ってカラム幅を指定 */
+    flex-basis: 30%;
+    margin-bottom: 0.2rem;
+    padding: 0;
+  }
+
+  .hm-Description_Data {
+    /* flex-basisを使ってカラム幅を指定 */
+    flex-basis: 70%;
+    margin-bottom: 1rem;
+    padding: 0;
+  }
+}
+
+/* Main Content Button */
+
+.hm-Content_Button {
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1.1;
+  background-color: #257a01;
+  border: 1px solid #1b5901;
+  margin: 0 auto;
+  padding: 2rem 0;
+  text-align: center;
+  border-radius: 0.2rem;
+}
+
+.hm-Content_Button:hover {
+  display: block;
+  color: #fff;
+  background-color: #1b5901;
+  border: 1px solid #1b5901;
+}
+
+@media all and (min-width: 600px) {
+  .hm-Content_Button {
+    width: 80%;
+  }
+}
+
+/* Main Home Hero */
+
+/*
+Photo by Eszter Biró on Unsplash
+https://unsplash.com/photos/oNsoDBAxybs
+*/
+
+/* トップのヒーローイメージのブロックのテキストの配置はFlexboxで調整する */
+.hm-Content_Hero {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  background-image: url("../images/hm-Content-HomeHero.jpg");
+  background-position: 20% top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+}
+
+.hm-Hero_Text {
+  color: #fff;
+}
+
+.hm-Hero_Heading {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0 0 0.3rem;
+}
+
+.hm-Hero_Tagline {
+  font-size: 0.75rem;
+  margin-bottom: 0;
+}
+
+@media all and (min-width: 600px) {
+  /* 600px以上のヒーローイメージのブロックの高さや写真の配置位置を上書き */
+  .hm-Content_Hero {
+    width: 100%;
+    height: 520px;
+    background-position: center 40%;
+  }
+
+  .hm-Hero_Text {
+    padding-left: 2rem;
+    color: #fff;
+  }
+
+  .hm-Hero_Heading {
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+  .hm-Hero_Tagline {
+    font-size: 0.9rem;
+  }
+}
+
+/* Home Main Column */
+
+.hm-Content_HomeColumn {
+  display: block;
+  margin-bottom: 5rem;
+}
+
+.hm-Column_Text {
+  width: 100%;
+}
+
+.hm-Column_Heading-Small {
+  color: #000;
+  font-size: 0.85rem;
+  line-height: 1.2;
+  border-bottom: 1px solid #000;
+  margin-bottom: 3rem;
+  padding-bottom: 0.3rem;
+}
+
+.hm-Column_Heading-Normal {
+  color: #444;
+  font-family: serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+
+.hm-Column_Paragraph {
+  margin: 0 0 2rem 0;
+}
+
+.hm-Column_Image {
+  width: 100%;
+  margin: 0 0 2rem 0;
+}
+
+.hm-Content_Image-Fluid {
+  width: 100%;
+  max-width: 100%;
+}
+
+.hm-Column_ImageCaption {
+  color: #555;
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+}
+
+@media all and (min-width: 600px) {
+  /* トップページのコラム部分のレイアウト指定もFlexboxで上書き */
+  .hm-Content_HomeColumn {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 0 0 auto;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 85%;
+  }
+
+  /* コラム部分の写真とテキストのブロックの入れ替えはflex-directionで視覚的な位置を逆に */
+  .hm-Content_Column-Reverse {
+    flex-direction: row-reverse;
+  }
+
+  .hm-Column_Text {
+    flex-basis: 60%;
+    padding: 3%;
+  }
+
+  .hm-Column_Image {
+    flex-basis: 40%;
+    padding: 3%;
+  }
+
+  .hm-Column_Heading-Small {
+    font-size: 0.9rem;
+  }
+
+  .hm-Column_Heading-Normal {
+    font-size: 1.5rem;
+  }
+}
+
+/* Main Content Contact */
+
+.hm-Content_HomeContact {
+  margin: 3rem 0 5rem;
+}
+
+/* News Column */
+
+.hm-Content_NewsColumn {
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.hm-News_Text {
+  width: 100%;
+}
+
+.hm-News_Heading-Small {
+  color: #000;
+  font-size: 0.85rem;
+  line-height: 1.2;
+  border-bottom: 1px solid #000;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.3rem;
+}
+
+.hm-News_Heading-Normal {
+  color: #444;
+  font-family: serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.hm-News_Paragraph {
+  margin-bottom: 0;
+}
+
+.hm-News_Image {
+  width: 100%;
+  margin: 0 0 1rem 0;
+}
+
+.hm-News_Image-Fluid {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media all and (min-width: 600px) {
+  .hm-Content_NewsColumn {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 0 0 auto;
+    align-items: flex-start;
+    width: 85%;
+  }
+
+  .hm-Content_NewsColumn-Reverse {
+    flex-direction: row-reverse;
+  }
+
+  .hm-News_Text {
+    flex-basis: 75%;
+    padding: 3%;
+  }
+
+  .hm-News_Image {
+    flex-basis: 25%;
+    padding: 3%;
+  }
+
+  .hm-News_Heading-Small {
+    font-size: 0.9rem;
+  }
+
+  .hm-News_Heading-Normal {
+    font-size: 1.2rem;
+  }
+}
+
+/* Contact Form */
+
+.hm-Content_ContactForm {
+  margin: 2rem 0;
+}
+
+.hm-ContactForm_Items {
+  margin-bottom: 3rem;
+}
+
+.hm-ContactForm_InputText {
+  width: 100%;
+  height: 3rem;
+  line-height: 3;
+  padding: 0 0.5rem;
+  border-radius: 0.1rem;
+  border: 1px solid #999;
+}
+
+.hm-ContactForm_InputSelect {
+  width: 75%;
+  height: 3rem;
+  padding: 0 0.5rem;
+  border-radius: 0.1rem;
+  border: 1px solid #999;
+}
+
+.hm-ContactForm_InputArea {
+  width: 100%;
+  line-height: 1.6;
+  height: 10rem;
+  padding: 0.5rem;
+  border-radius: 0.1rem;
+  border: 1px solid #999;
+}
+
+@media all and (min-width: 600px) {
+  /* 親要素（.hm-Content_Box-Padding）のFlexboxの指定を活かして、ラベルとフォーム要素を上下中央に揃える */
+  .hm-ContactForm_Items {
+    align-items: center;
+  }
+}

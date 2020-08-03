@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+html {
+	font-size: 62.5%;
+	font-family: sans-serif;
+}
+
+p {
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+span {font-size: 2rem;}
+
+.box1 {
+	padding: 1.5rem 2.5rem;
+	border: 1px solid #CCC;
+	width: 35rem;
+	margin-bottom: 2rem;
+}
+
+.case1 {
+	border: 1px solid #CCC;
+	padding: 2px;
+	margin-right: 2rem;
+	float: left;
+}
+
+.cliarfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}

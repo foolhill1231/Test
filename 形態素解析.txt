@@ -1,0 +1,32 @@
+
+1.Anaconda  Promptを起動する。
+2.以下のコードを入力し、実行する。
+	>pip install ipykernel
+	>pip install mecab-python-windows
+		導入完了
+3.	>python
+4.	>import MeCab
+	>m=MeCab.Tagger()
+	>print(m.parse("テキスト"))
+
+5.	>exit()
+
+ファイル読み込み
+
+	import re
+	from collections import Counter
+
+	f = open(r"C:\Users\hill\Desktop\dabun.txt","r",encoding="utf-8")
+	data = f.read()
+
+	parse = MeCab.Tagger().parse(data)
+	lines = parse.split('\n')
+	items = (re.split('[\t,]',line) for line in lines)
+	for item in items:
+		words.append(item[0])
+	
+	counter = Counter(words)
+	
+	for word , count in counter.most_common(10):
+		print ('%s : %s' % (word, count))
+

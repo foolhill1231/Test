@@ -1,0 +1,1203 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable/plate_36.jpg
+SHA1-Digest: Ju1ZK4ESDPOYXGZ6kjXnLp9rQOY=
+
+Name: res/raw/switch1on.ogg
+SHA1-Digest: 5xeKh57WSscVxK8YrITc8aYqyCE=
+
+Name: res/drawable/switchhibikia.jpg
+SHA1-Digest: wylNTO8bEIBelP0tI7CRa79A2TM=
+
+Name: res/drawable/left_arm.jpg
+SHA1-Digest: ximu6Rj9hBLePA0XcEEoGXQwAQk=
+
+Name: res/drawable/switch02a.jpg
+SHA1-Digest: AC89/bqtIAr0jmptCS9MA9bPFtI=
+
+Name: res/drawable/fourzedriver_up1.png
+SHA1-Digest: 0CMiR0O9mcz9SoYzSsXehKNcEAI=
+
+Name: res/drawable/fourzedriver_off3.png
+SHA1-Digest: R+JCsYitbdaeJb1gOPr7fn7TC/k=
+
+Name: res/raw/switch40_cosmic_on.ogg
+SHA1-Digest: flkzHeySA5FLNINojg3Waig1+94=
+
+Name: res/drawable/switch17a.jpg
+SHA1-Digest: zNinK1rNIokv38EFdNTXAku+PxM=
+
+Name: res/raw/phone06.ogg
+SHA1-Digest: AscJMeFoHU+zvBBikXxbbLEqGUI=
+
+Name: res/raw/switch40_cosmic.ogg
+SHA1-Digest: KraovVBZaQe9j1TSCvTTE1CTZ2k=
+
+Name: res/raw/phone08.ogg
+SHA1-Digest: hBAfencVbNULDzzLp0hApByp/to=
+
+Name: res/raw/switch17_flash_on2.ogg
+SHA1-Digest: cVkopktFHYLTZ916/wTum5edFNI=
+
+Name: res/drawable/switchstronger.jpg
+SHA1-Digest: /jCsnnTSvo745O8o3YjRoAlED3k=
+
+Name: res/drawable/fourzedriver_down4.png
+SHA1-Digest: 5Q7g3GXQKYvcbAWe8ein9FwNDCU=
+
+Name: res/raw/switch_kabuto.ogg
+SHA1-Digest: rl6om2+jPSTdkN1lt632I0V41Dg=
+
+Name: res/raw/switch_stronger.ogg
+SHA1-Digest: Ghc3kbtJJt8jiyiJaU6TJqSB9ZE=
+
+Name: res/raw/switch33_crow_on2.ogg
+SHA1-Digest: hjyPiHq/Y9xfi0L/lPl4aGFdsq4=
+
+Name: res/drawable/switch35a.jpg
+SHA1-Digest: zWZQTKrn/vPXrVNE0lpZdotQ6cE=
+
+Name: res/raw/switch_555.ogg
+SHA1-Digest: e9MUpIPsr0S7Qvs7D1eO6kZGAns=
+
+Name: res/drawable/fourzedriver_up8b.png
+SHA1-Digest: ovDiB7pMLrKB9q3Ct4v7dO6alag=
+
+Name: res/drawable/switchagito.jpg
+SHA1-Digest: N7hw7M6Aczm7+gRPwsuRHcKZMc4=
+
+Name: res/raw/switch16_winch_on.ogg
+SHA1-Digest: k8pkygd2GyVDqJdaAH/5FeB4Hq4=
+
+Name: res/drawable/switch40.jpg
+SHA1-Digest: OWMagTgD49l9L5FC4I2WwuaZxRk=
+
+Name: res/drawable/switch12.jpg
+SHA1-Digest: RQXocHBtgH/gafwZLIHoQlsJYmU=
+
+Name: res/raw/phone02.ogg
+SHA1-Digest: ZQuvYvSdVGlH/Q1NofCoSJTfHOg=
+
+Name: res/drawable/plate_15.jpg
+SHA1-Digest: hrNVwFi7YMHU0l6PiWFYMOanCoE=
+
+Name: res/drawable/fourzedriver_down6.png
+SHA1-Digest: kqYbHgejjvzFxDu1S4SJWRBeVcw=
+
+Name: res/drawable/switch40a.jpg
+SHA1-Digest: MA/jmqnY9Gg+XWaGtcqjFP2oFAg=
+
+Name: res/raw/switch20_fire_on.ogg
+SHA1-Digest: C/nljjWPgp9qncqpfk/f0UIkiiA=
+
+Name: res/drawable/switchblade.jpg
+SHA1-Digest: C28hPEWkaZJCgf1Xi+ZPE3dLQQU=
+
+Name: res/drawable/plate_35.jpg
+SHA1-Digest: fhNRBrbESfz1Hb5O2tJ3gFhfaA0=
+
+Name: res/raw/switch04_radar.ogg
+SHA1-Digest: ZYAuhP3EazcE9dRgcU2RCZUSbTE=
+
+Name: res/raw/switch16_winch.ogg
+SHA1-Digest: 1BTkKTjZsDdgNgkB5LvixMVNgxs=
+
+Name: res/raw/switch2on.ogg
+SHA1-Digest: arBOzSyldhEFwtt42paEoVZH9rM=
+
+Name: res/drawable/switchdenoa.jpg
+SHA1-Digest: a88FwJAvgEKJRAneT+jfrB8W/xI=
+
+Name: res/raw/phone04.ogg
+SHA1-Digest: pKSCZ2tkvysAPHvcvHVz1/ksU9M=
+
+Name: res/drawable/switchriderman.jpg
+SHA1-Digest: UZVyfgeWRfV3fPtwbN/YS3E81uY=
+
+Name: res/raw/switch39_stamper.ogg
+SHA1-Digest: KDalT8bEp3K+Rd2ia+M/SHJkBXs=
+
+Name: res/drawable/switch20a.jpg
+SHA1-Digest: gzxSVyHADz9IsHK+CduYrGBn6DY=
+
+Name: res/raw/switch37_jayro_on.ogg
+SHA1-Digest: tbLlLLHpoOIOVoPuo90Yzjq/QlI=
+
+Name: res/raw/switch_decade_on.ogg
+SHA1-Digest: g1/1PF3oU8G26D944XyUl1Yf5EM=
+
+Name: res/drawable/plate_00.jpg
+SHA1-Digest: LCld56LcDwXPi7rV7Syp7RzU030=
+
+Name: res/drawable/plate_x.jpg
+SHA1-Digest: YDOl7M7BOW094dqV9EBTxPa/ElE=
+
+Name: res/drawable/fourzedriver_up2b.png
+SHA1-Digest: nUriNliwqAPA1AEYoGo54gmxljw=
+
+Name: res/drawable/switchagitoa.jpg
+SHA1-Digest: xGkmaenDwfe4cor034dDQbt0bQA=
+
+Name: res/raw/switch_hibiki_on.ogg
+SHA1-Digest: lz/jcGiZZn/TJVCCiej2YvmNFbE=
+
+Name: res/drawable/switch16.jpg
+SHA1-Digest: I8Oulqth2m6dv23llGyWyjRfb/0=
+
+Name: res/drawable/fourzedriver_down2.png
+SHA1-Digest: utBgZQkRUl0N0upVVpR/w9sNv5o=
+
+Name: res/drawable/switch38a.jpg
+SHA1-Digest: +4g2r2hSpofOZ9SUQqwy+HCnYhs=
+
+Name: res/drawable/plate_12.jpg
+SHA1-Digest: hR2VBtqNdumZ29sGTnYxkUhqcD8=
+
+Name: res/drawable/plate_22.jpg
+SHA1-Digest: ASAPN/Mhqg1f9R+AnfWp3Us8hDE=
+
+Name: res/drawable/switchxa.jpg
+SHA1-Digest: jUc1z67CHcJxFNOASfd1qEzxRFs=
+
+Name: res/raw/switch25_pen.ogg
+SHA1-Digest: XQUXLifVkXaz8bS2/lA+DNWIKvk=
+
+Name: res/drawable/switchdecadea.jpg
+SHA1-Digest: 9ihV1u3ghZMgYenzsUdio8qb2sc=
+
+Name: res/drawable/plate_riderman.jpg
+SHA1-Digest: XB0jHKGBDSBhM7Jvn1vGBIeGzyc=
+
+Name: res/drawable/switch38.jpg
+SHA1-Digest: WtQORgiFZhdmmBSl/2YoPbx4nNo=
+
+Name: res/raw/switch11_scissors.ogg
+SHA1-Digest: lRFKmcCTPSkk9j/EWgEL2HXqIdI=
+
+Name: res/drawable/switch02.jpg
+SHA1-Digest: yuS4LkskQsFIT18kY3J9HXM11p4=
+
+Name: res/drawable/switch24a.jpg
+SHA1-Digest: gF3f6+01EToTTqpbBhnJjapgzY8=
+
+Name: res/drawable/plate_02.jpg
+SHA1-Digest: 0yyCh+Seo3RI24h8knWKaXtfmQg=
+
+Name: res/drawable/switchkiba.jpg
+SHA1-Digest: RfPqpWld/weY5hed5rqv886pX8U=
+
+Name: res/raw/switch_1gou_on.ogg
+SHA1-Digest: CY8bJI538kLe/tRPCNPuZX9/Aqs=
+
+Name: res/drawable/switchhibiki.jpg
+SHA1-Digest: 7YwKUfdq6xfzTFVzHF66+fl9lyg=
+
+Name: res/drawable/plate_agito.jpg
+SHA1-Digest: YMIiFKTiX5SNJ/ZUBU5Bu/NWeI4=
+
+Name: res/raw/switchoff.ogg
+SHA1-Digest: 7xw9k2G/bQG7gIe98VCxgXqrJLg=
+
+Name: res/drawable/switchs1.jpg
+SHA1-Digest: O8BHZ686W8sBrT9cldibOaSGXDQ=
+
+Name: res/raw/switch26_wheel.ogg
+SHA1-Digest: eFvV4xpO27/d7xih1ag9GZ+8xWU=
+
+Name: res/raw/switch29_schop_on.ogg
+SHA1-Digest: b6PUKDcW9BXA3uoZwZfCRJGaSQw=
+
+Name: res/drawable/plate_04.jpg
+SHA1-Digest: vcKPZDJROXo4/OMNLvPfF3ESdKk=
+
+Name: res/raw/switch19_gatling_on.ogg
+SHA1-Digest: uVuhK6JCJzOy2gHPakJ70kDEs5k=
+
+Name: res/drawable/plate_13.jpg
+SHA1-Digest: kxe6yVLogxMwyegsgZV5xfiJL6o=
+
+Name: res/raw/switch21_stealth_on.ogg
+SHA1-Digest: QvUeRVGOGWzQAym6AiBohPWqd4M=
+
+Name: res/drawable/plate_555.jpg
+SHA1-Digest: 3EIwFtRt1smKhHcYii9YYg91ByI=
+
+Name: res/drawable/plate_29.jpg
+SHA1-Digest: x0lmLHpEG4byqVsRSQ5GLKuPDuk=
+
+Name: res/drawable/plate_11.jpg
+SHA1-Digest: drPJExBTe3dE8zY3XD9Dvk8lCVw=
+
+Name: res/drawable/switch05.jpg
+SHA1-Digest: bVcczUDZ1f+Zwm/Ip3Mf4ovhwWo=
+
+Name: res/drawable/switch33.jpg
+SHA1-Digest: pjffcdOmN4wcP2SXdsSCzxN4jxs=
+
+Name: res/raw/switch08_chainsaw_on.ogg
+SHA1-Digest: MU24mdLMB/PS9zGHx+0l7+JThpE=
+
+Name: res/drawable/switch25a.jpg
+SHA1-Digest: BMzg+IkW8hrf/WuQK5sqXCZEahY=
+
+Name: res/anim/translate_open_enter.xml
+SHA1-Digest: TVNXpgDC3vUKVXtrN3eNEbPP5l8=
+
+Name: res/drawable/fourzedriver_up3a.png
+SHA1-Digest: yG8nUTp5+1O67E31BYHcsRpdGwA=
+
+Name: res/raw/switch21_stealth.ogg
+SHA1-Digest: MsbVvQ2U3wygYQ8tIx/Hy4fs1zA=
+
+Name: res/raw/switch17_flash.ogg
+SHA1-Digest: AdhnUzB99pGeusC6YvZhOSdrEYI=
+
+Name: res/drawable/right_arm.jpg
+SHA1-Digest: P7bH3m22KHNxnMn0s6GsRaGMxTE=
+
+Name: res/raw/switch32_frieze_on.ogg
+SHA1-Digest: yLNvO1LoAwcuY7MXyGNjILrdi7k=
+
+Name: res/raw/switch14_smoke_on.ogg
+SHA1-Digest: 1FPgntdqsyeHrAlndU+sOBvqcwM=
+
+Name: res/drawable/parts_right_leg_light.png
+SHA1-Digest: f7wWHdSDwuZbGr1qubYUapfF9is=
+
+Name: res/drawable/switch27a.jpg
+SHA1-Digest: HpOopkfz5Mq5G+HZwlTNXVwDu3Y=
+
+Name: res/drawable/switch37.jpg
+SHA1-Digest: E8ZCfyRCOOsBU+olhmJ4/DposrM=
+
+Name: res/drawable/switch17.jpg
+SHA1-Digest: vQHfZjq6QuOF0LB0xt0fTiJe/4k=
+
+Name: res/drawable/switch36.jpg
+SHA1-Digest: DmyUpRGeNbXnAR1LGUk2q9vZ8Uc=
+
+Name: res/raw/switch06_camera_on.ogg
+SHA1-Digest: KNFCxM53NvbtprD2pNXANjjdyBY=
+
+Name: res/raw/switch_decade.ogg
+SHA1-Digest: bzd/Bm59B6dnTSU/VfGmqZHc1Xc=
+
+Name: res/drawable/switchv3.jpg
+SHA1-Digest: Kk8kgXj2rLQP0B+PcqfsXO1JAxQ=
+
+Name: res/drawable/switch35.jpg
+SHA1-Digest: 4paIpEUqRf01/A6Q7OJvHXH0PZw=
+
+Name: res/drawable/plate_16.jpg
+SHA1-Digest: qopQvv1TjLCOtL9ySkYLC6LS4vk=
+
+Name: res/drawable/switch555a.jpg
+SHA1-Digest: Iq21PHXuxSA0XmqAd1Ac3fC6GQU=
+
+Name: res/drawable/switch22.jpg
+SHA1-Digest: tIFJn8KQWZCzYZPojV7c01X2EOU=
+
+Name: res/drawable/switch10.jpg
+SHA1-Digest: F0d9TB0kkRdFTzCpXw+EXv8Pvis=
+
+Name: res/drawable/switchdecade.jpg
+SHA1-Digest: gAAKP3PhRqAQnUlLa1lIyCHDsUU=
+
+Name: res/drawable/switch25.jpg
+SHA1-Digest: v1+/cGCyb3Gr281OVBGY2mOgeO4=
+
+Name: res/raw/change.ogg
+SHA1-Digest: 8kYRGyebdRzE7qU5zX9D2Pj4nh4=
+
+Name: res/drawable/switch29a.jpg
+SHA1-Digest: yRIv+wzdp+a++sdtKKV01lBz4t4=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: Vb4ql1TC8H8KGqKY6vKD+wfuBKM=
+
+Name: res/drawable/switch13a.jpg
+SHA1-Digest: fRR0FzwPaBL+stJgE/ZyAyVnfEs=
+
+Name: res/raw/switch_kabuto_on.ogg
+SHA1-Digest: d5VZEQTMgtNs8gkiSP1MJvUjNEI=
+
+Name: res/drawable/fourzedriver_off2.png
+SHA1-Digest: NJ85Fw4hHZDw9WoBmOV2pyq678Y=
+
+Name: res/drawable/switchkuugaa.jpg
+SHA1-Digest: 9uGbtTIuzfHimUvZ1MlH82eZ7I8=
+
+Name: res/drawable/switch09.jpg
+SHA1-Digest: 8YklzeDOrl9ELlr/BPBvHs8u10g=
+
+Name: res/drawable/switch23.jpg
+SHA1-Digest: 7gKvcf3E0X9l+kzIC9G86ohyIqk=
+
+Name: res/raw/switch06_camera.ogg
+SHA1-Digest: FpyyBNP3/CTZLJ54DrUv1HtjEZ0=
+
+Name: res/raw/switch39_stamper_on.ogg
+SHA1-Digest: LqG75AasnIkSWLLCfL22TZc+QoU=
+
+Name: res/drawable/switch04a.jpg
+SHA1-Digest: 4qG9wIpQRSFJ6gLndJt5MP46a0k=
+
+Name: res/raw/switch15_spike.ogg
+SHA1-Digest: xHyczj0PSlZzkjf8O6RK9ixuumA=
+
+Name: res/drawable/switch33a.jpg
+SHA1-Digest: KipzsoUL20Xma64qKE11dAzpOH8=
+
+Name: res/drawable/switchw.jpg
+SHA1-Digest: BlIu55AXwDIuZUH3KB2YMJJO+sw=
+
+Name: res/drawable/switchoooa.jpg
+SHA1-Digest: RCgwh1muorE5JAXKHi8zsA0Qvbo=
+
+Name: res/drawable/switch01a.jpg
+SHA1-Digest: kLcD1fhRYTR/niwur++25XR2Bcc=
+
+Name: res/raw/switch_v3.ogg
+SHA1-Digest: Et7huOo5s7M8oEevZSZ8zBaY11U=
+
+Name: res/raw/switch_ryuki_on.ogg
+SHA1-Digest: 4QIBJS3v5MCKlNMXh5IzKFroPzw=
+
+Name: res/raw/switch_agito_on.ogg
+SHA1-Digest: 8yMd4byvSHTZE3TQInhndnJGDX8=
+
+Name: res/raw/switch23_water.ogg
+SHA1-Digest: TI764EltSs79Y/dwtK3r1B2gAYU=
+
+Name: res/raw/switch15_spike_on.ogg
+SHA1-Digest: L/oQMMeDy63jXaHJRlDHIw3ksaY=
+
+Name: res/drawable/switch09a.jpg
+SHA1-Digest: KwDH0rhzEL15YXSjlL3AoRCuW8U=
+
+Name: res/drawable/switchx.jpg
+SHA1-Digest: o9AjRpHpXNz+hyelQjyVqFJ6lq0=
+
+Name: res/drawable/fourzedriver_up8a.png
+SHA1-Digest: dikdrrkJhdVpuP1TAJICk4bkAEE=
+
+Name: res/drawable/switch14a.jpg
+SHA1-Digest: EWYTreyL0Rgo5mL2CvrfujVST9M=
+
+Name: res/raw/switch03_drill_on.ogg
+SHA1-Digest: 2XdtQ8vxjSxepDrhFP/idReSOjk=
+
+Name: res/raw/switch27_screw.ogg
+SHA1-Digest: nCxr4hrYyLv7PZlrgX+uaQEfkS4=
+
+Name: res/drawable/fourzedriver_up6b.png
+SHA1-Digest: VQNrYUxde4VxWVC85LVNb/Xn7Ns=
+
+Name: res/raw/switch28_hand_on.ogg
+SHA1-Digest: BqadXfgv1sAJYZ5oqt+2Fvjgq78=
+
+Name: res/raw/switch_kuuga_on.ogg
+SHA1-Digest: M+jQLsa17Z5+R/e7hArW5YoyxSs=
+
+Name: res/drawable/plate_38.jpg
+SHA1-Digest: rn04DeV0GEJerKA1z6rcVYAWKtM=
+
+Name: res/drawable/switch2gou.jpg
+SHA1-Digest: 3PazsY3oeeNBivqilo1kpU9k9Uk=
+
+Name: res/raw/switch05_magichand_on.ogg
+SHA1-Digest: 3T/DKj8Ol2acmZ40jbmYaM5I8fo=
+
+Name: res/drawable/plate_kuuga.jpg
+SHA1-Digest: o+S1TFcg13bR9DYo6sa1WI6rPoI=
+
+Name: res/drawable/plate_25.jpg
+SHA1-Digest: 7DNKFL3lUv3r5uI7DKYSWUcwT2s=
+
+Name: res/raw/switch_kiba_on.ogg
+SHA1-Digest: kM7W/uIRsM03nwRBXcH7BKEb97w=
+
+Name: res/drawable/right_leg.jpg
+SHA1-Digest: jqxXmVZsasW9E+mcFInTyqaocw8=
+
+Name: res/drawable/parts_body.png
+SHA1-Digest: A5h7+aGDxfZxX+PPNKwKbqK91Oo=
+
+Name: res/drawable/fourzedriver_up7a.png
+SHA1-Digest: 0aOESpcOV2wqCj7+rO68eKYfCRw=
+
+Name: AndroidManifest.xml
+SHA1-Digest: Cdv7BQJPzpv21ldFtrW/GEG+aZE=
+
+Name: res/raw/switch_amazon.ogg
+SHA1-Digest: +JGKAyfKqlRHLx6hxS05Iyxet/g=
+
+Name: res/raw/switch10_elec_on2.ogg
+SHA1-Digest: 9PvLG4DpUCta5VoJpXVgvVw7fCQ=
+
+Name: res/raw/switchon.ogg
+SHA1-Digest: pVQ/hDtmLbaQ+7okfFXHUGqXLf4=
+
+Name: res/drawable/switch19.jpg
+SHA1-Digest: 0XT9Teq1NV0zZW7x6q+uSXKUB8E=
+
+Name: res/raw/switch_riderman.ogg
+SHA1-Digest: gAE2yD7fxfiGEanzjhqWEl2i/Vw=
+
+Name: res/raw/switch3031_magnet.ogg
+SHA1-Digest: KraovVBZaQe9j1TSCvTTE1CTZ2k=
+
+Name: res/drawable/switchstrongera.jpg
+SHA1-Digest: ge3TMoFdaMM8z+Jhtz5cf8q74dA=
+
+Name: res/drawable/plate_1gou.jpg
+SHA1-Digest: NA0MmpcXxVoSDd9QcFveYs35KHY=
+
+Name: classes.dex
+SHA1-Digest: hMQdAbORWHMHeo7LgZ2VroQ9iUA=
+
+Name: res/raw/switch_1gou.ogg
+SHA1-Digest: N+BP3ZqvQhbhX/llARBO1Za03Pg=
+
+Name: res/raw/switch_hibiki.ogg
+SHA1-Digest: UW3CltWm/HAcAornNeaNsrvKhRw=
+
+Name: res/drawable/fourzedriver_on1.png
+SHA1-Digest: MqPYH2pwsRoQ/B0Ehrkd8Rq6Y0U=
+
+Name: res/drawable/plate_06.jpg
+SHA1-Digest: SVInuMoLJjyKv6JdxF3bLkthiog=
+
+Name: res/drawable/switchamazona.jpg
+SHA1-Digest: F4k+j6mDz8x0+B8tL4HM+wf7Hq4=
+
+Name: res/raw/switch05_magichand_on2.ogg
+SHA1-Digest: hJF+G+rLRtNzd1E/H75tyYaqqJ8=
+
+Name: res/raw/switch29_schop.ogg
+SHA1-Digest: 90FxikRXPG0dHRSdmnHkD3nh++E=
+
+Name: res/drawable/fourzedriver_down3.png
+SHA1-Digest: RqK4oeXXqPK/CYkphDgToL9q9Oo=
+
+Name: res/raw/switch_v3_on.ogg
+SHA1-Digest: l9MFDaIYdIbeEG4ynFj9dDvBIwI=
+
+Name: res/raw/switch_555_on.ogg
+SHA1-Digest: jeaIeSH9L0kfSlQZTQvAiM47bcs=
+
+Name: res/drawable/fourzedriver_on4.png
+SHA1-Digest: S2wd51xEQNS4tSmR+wuaDb6vdzc=
+
+Name: res/drawable/switch21a.jpg
+SHA1-Digest: +/NC9ve3dsMzBGLKKCKo+MVbDt0=
+
+Name: res/drawable/switch32a.jpg
+SHA1-Digest: wkJWgmD1o6VZwXkjjDKmo9v52CE=
+
+Name: res/drawable/switch12a.jpg
+SHA1-Digest: OZSVCDM9whK06dypkVjHFLm48kc=
+
+Name: res/drawable/switch03a.jpg
+SHA1-Digest: Fp4pvttvO48819j0cReSOkf7otU=
+
+Name: res/raw/switch19_gatling.ogg
+SHA1-Digest: N2tibDZRLjjD54Kmt5pTCUyXmwM=
+
+Name: res/drawable/fourzedriver_down1.png
+SHA1-Digest: LBOKT1zLE8teKFYFk1dttxn8ga4=
+
+Name: res/drawable/switch37a.jpg
+SHA1-Digest: HLFaDlwyGqA9d+mfMg2GKOJ4Eg4=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: 0T4S/NnC+aiadfJIp3rAOS/pnnA=
+
+Name: res/drawable/fourzedriver_m4.png
+SHA1-Digest: bluYEyN6ooz4uuV1q2v3wxkNSAA=
+
+Name: res/raw/switch_fusion_on.ogg
+SHA1-Digest: a07h6aey9K41zBUNw465qVRcShE=
+
+Name: res/raw/switch34_board.ogg
+SHA1-Digest: KjN/S0afo3w7jeFqHrnyiOcXpcg=
+
+Name: res/drawable/switchfusiona.jpeg
+SHA1-Digest: B869gFZDruYqtYuzb1caxdb0hoA=
+
+Name: res/drawable/plate_40.jpg
+SHA1-Digest: mtOl1p07x5mFvTf51Q7JfbascN0=
+
+Name: res/drawable/switch06.jpg
+SHA1-Digest: l3bk89O3E1TX6PV9DJnIJERY1uY=
+
+Name: res/drawable/switchfusion.png
+SHA1-Digest: ubPurQcbNd97b8L8zVV/FlWpUjM=
+
+Name: res/raw/switch32_frieze.ogg
+SHA1-Digest: ScaxHphlnKL9SKrHRcqLF4K8rDo=
+
+Name: res/drawable/switch06a.jpg
+SHA1-Digest: 1NgFiBSNUqkaosRm4PgdniThtHI=
+
+Name: res/drawable/switchbladea.jpg
+SHA1-Digest: T6LJz9L7uGgXAwoKWEK3R4u7uwg=
+
+Name: res/drawable/plate_ryuki.jpg
+SHA1-Digest: AqASl82LxDTKPOKu7i/G5VQb8KI=
+
+Name: res/drawable/switchridermana.jpg
+SHA1-Digest: M8Hy9qbwYyaF1lRc1sE8ML5B/wo=
+
+Name: res/raw/switch_deno.ogg
+SHA1-Digest: Pm4PwujHAOvfZGOhqdJ6J/bn5vw=
+
+Name: res/raw/switch_blade.ogg
+SHA1-Digest: vgpzFQGoxZoZyuauVA6CciaqQdA=
+
+Name: res/raw/switch20_fire_on2.ogg
+SHA1-Digest: DrG38CIvm1T0OCJS+KKtY4DdIIc=
+
+Name: res/drawable/switch07a.jpg
+SHA1-Digest: 8d5kNIjGXHe3+6MC5s4XPbNywdM=
+
+Name: res/raw/cosmic_goodbye.ogg
+SHA1-Digest: OHGWX79NwMwvGN1rmxXOBvaqzts=
+
+Name: res/raw/switch4on.ogg
+SHA1-Digest: bw3aEAwdPAgRyAyerYQtM0KrYMI=
+
+Name: res/drawable/plate_19.jpg
+SHA1-Digest: cEyIsFTHJy8J65OBHKjtWtWsdko=
+
+Name: res/raw/switch25_pen_on.ogg
+SHA1-Digest: iEjrYbTmf2g+GMYiHVWZY19yYYk=
+
+Name: res/drawable/switchryukia.jpg
+SHA1-Digest: AaQIOxb8UnGdk504ANdbgnGGzwY=
+
+Name: res/raw/switch_2gou.ogg
+SHA1-Digest: jUrdxXDb+S+RFFbx14cT9gl2s+U=
+
+Name: res/drawable/parts_left_leg_light.png
+SHA1-Digest: DbOdYruIoSmFB9tmD9q0mS/4arA=
+
+Name: res/raw/switch_ooo.ogg
+SHA1-Digest: NhOkHNjWRTgKpq39FxwM5cE2Hi0=
+
+Name: res/drawable/fourzedriver_m2.png
+SHA1-Digest: vKv9jGCm/UhCWSAnWGwfT3gHN4U=
+
+Name: res/drawable/plate_34.jpg
+SHA1-Digest: BL1ybxpWyyGgq045tH8SOBLxD84=
+
+Name: res/drawable/plate_37.jpg
+SHA1-Digest: xCRs5xloJtIoESK8fTckPEItEKA=
+
+Name: res/drawable/plate_17.jpg
+SHA1-Digest: VQWsM99yRjparliYbdADsf3pCMI=
+
+Name: res/drawable/switch03.jpg
+SHA1-Digest: sY6mCN7CIN8v5UYGxaTK0hnm1/w=
+
+Name: res/drawable/parts_left_arm_light.png
+SHA1-Digest: Im4zgAmmcJPvPjf+xESU8l131wM=
+
+Name: res/raw/switch22_hammer_on.ogg
+SHA1-Digest: 4mO9U0XJ3xQrAetcEp9gSIPT4fg=
+
+Name: res/drawable/switch23a.jpg
+SHA1-Digest: Z3z7EblHU3pEgxUS6jcgFmjEkmU=
+
+Name: res/drawable/btn40on.jpg
+SHA1-Digest: k6Lya+dqS1e2T+h2M+IT9GXn3KI=
+
+Name: res/drawable/fourzedriver_down5.png
+SHA1-Digest: c3ejLJfJ6bE6Gal1YvO874KKtXk=
+
+Name: res/drawable/plate_26.jpg
+SHA1-Digest: VvYhBDD2FqaAznzocsmIW47xVRM=
+
+Name: res/raw/switch03_drill.ogg
+SHA1-Digest: EZ5zPSHppmUywMG/oTefN4ObrHE=
+
+Name: res/drawable/btn3031.jpg
+SHA1-Digest: i9UBctV607Q7vjIHIgVHJF7/mEA=
+
+Name: res/drawable/switch20.jpg
+SHA1-Digest: xgPHDvQAiHkIHx+mRpFlQou/Vc0=
+
+Name: res/drawable/plate_amazon.jpg
+SHA1-Digest: D22r3CVmfSw5gPLcgATSJu96XKs=
+
+Name: res/drawable/plate_27.jpg
+SHA1-Digest: H6aN3yDWSVRvmxZgQgCu/AKi3dk=
+
+Name: res/drawable/plate_30.jpg
+SHA1-Digest: ktr9XOTdER/yuS/fcpWoyLk+i44=
+
+Name: res/drawable/switch24.jpg
+SHA1-Digest: YfipPf/ZljEGk1IkpOaOPCwaYw8=
+
+Name: res/raw/switch01_rocket_on.ogg
+SHA1-Digest: ZS7ny9UMYPTb7SaW8TFHutZ2F1U=
+
+Name: res/raw/switchs1_rocket_on.ogg
+SHA1-Digest: zeXP8Ml4dicPbJqbOt7Ffh9m+4U=
+
+Name: res/drawable/fourzedriver_up5.png
+SHA1-Digest: 9TSQfmteHFqzsM4oNDeMQGll6uQ=
+
+Name: res/drawable/fourzedriver_on2.png
+SHA1-Digest: Zq5mrqV2cJRoPXfugNTiLeRFUvM=
+
+Name: res/drawable/plate_05.jpg
+SHA1-Digest: JexAOe6nRd2mOx3PgzEToovyVwo=
+
+Name: res/raw/switch_ooo_on.ogg
+SHA1-Digest: 5Zlt1sN4TtuqYLi1Ihd8w76mNJ4=
+
+Name: res/drawable/switch19a.jpg
+SHA1-Digest: Kf1msfStwm5XSVNaN49nv+8KcQc=
+
+Name: res/drawable/parts_left_arm.png
+SHA1-Digest: 6T15zCGTbY+Fhz7Htdf3pNc/SLI=
+
+Name: res/raw/switch13_chainarray_on2.ogg
+SHA1-Digest: lM4BHFjfDuzY8/ePoJg/ciec4BQ=
+
+Name: res/drawable/plate_14.jpg
+SHA1-Digest: X/CYLMa/lt3RN8DTpZhOx3GrBR4=
+
+Name: res/raw/switch35_giantfoot.ogg
+SHA1-Digest: 2xZFCI4yzPd/Yy40dqFBJJTWhRM=
+
+Name: res/drawable/limitbreak_kaitenattack.jpg
+SHA1-Digest: +e7MO9ewX/nmN/YJ41rbXO9Kvsw=
+
+Name: res/drawable/plate_hibiki.jpg
+SHA1-Digest: yfjILv8Mfpg9gFUXikE5NEBSzHw=
+
+Name: res/raw/switch26_wheel_on.ogg
+SHA1-Digest: 8y326JWO735UiP0XpEXVOgNqqWo=
+
+Name: res/drawable/switch13.jpg
+SHA1-Digest: 7c2JzJRLDTQWOo5F9zHqgwp7u8Y=
+
+Name: res/drawable/switch18.jpg
+SHA1-Digest: P4IYopJpyA6RklXRVkeugZxGUuM=
+
+Name: res/raw/switch3on.ogg
+SHA1-Digest: d9gM+KIMCH2EH0PVsAfgCn5pRTU=
+
+Name: res/raw/switch_amazon_on.ogg
+SHA1-Digest: kQ2U037qwOjj7s5dTqpGwbQKhl0=
+
+Name: res/drawable/plate_kiba.jpg
+SHA1-Digest: a6OI3PWt9SKKrqXhumga2C5i3LI=
+
+Name: res/raw/switch_on2.ogg
+SHA1-Digest: w74NERvn2fHWGQo69yXNqXqMIwA=
+
+Name: res/raw/switch28_hand.ogg
+SHA1-Digest: h5D2A72GjEypWWvO+s6tTf74szg=
+
+Name: res/drawable/switch15.jpg
+SHA1-Digest: ahZAqF+zeCCE2wt6YGpEEwlakwk=
+
+Name: res/drawable/plate_blade.jpg
+SHA1-Digest: O9MhLgUjPmLCx2TPXyUUIVi7VAI=
+
+Name: res/raw/switch17_flash_on.ogg
+SHA1-Digest: tVNbfxKdlrd/qfTpGY6RjTazZFo=
+
+Name: res/raw/switch36_aero_on.ogg
+SHA1-Digest: ESDWzT1pfbK+Ai0NHe+BGUXT0FU=
+
+Name: res/drawable/plate_08.jpg
+SHA1-Digest: 1rnWqYiNkYUHv4/i0J0/lzaukaM=
+
+Name: res/drawable/fourzedriver_up3b.png
+SHA1-Digest: HjenjhlJXaX41NL5eu6mBSCMf2U=
+
+Name: res/drawable/plate_v3.jpg
+SHA1-Digest: 1jB1l9/1TQb4GM17nRa5EpjAQ5Y=
+
+Name: res/drawable/switch10a.jpg
+SHA1-Digest: oz93toLiEBKimIlNv0pvL1YLd/g=
+
+Name: res/raw/switch_agito.ogg
+SHA1-Digest: l28JdLkMq+TH8XxvjwYuqqKQb2E=
+
+Name: res/drawable/switchs1a.jpg
+SHA1-Digest: QrGQspSsqVWCwDJGwNr8rbz6oyE=
+
+Name: res/drawable/plate_deno.jpg
+SHA1-Digest: lN1Wmn2eMBgUGqqm5CrfDu81V5Y=
+
+Name: res/raw/switch_w.ogg
+SHA1-Digest: rkHuVRVR3QFjKI/6KP7PyBDKOWk=
+
+Name: res/drawable/plate_10.jpg
+SHA1-Digest: NamxrEdiojDjUXO1QOyDRrW02k4=
+
+Name: res/raw/switch34_board_on.ogg
+SHA1-Digest: hAoaHYG7gNZ0VT8k8hocf1IwJE8=
+
+Name: res/raw/switch_fusion.ogg
+SHA1-Digest: KraovVBZaQe9j1TSCvTTE1CTZ2k=
+
+Name: res/drawable/fourzedriver_down7.png
+SHA1-Digest: 8V2Gwq5tAUmwaRGXyzwJ2cmasks=
+
+Name: res/drawable/plate_s1.jpg
+SHA1-Digest: Ma7FgGJxYTu4cw57sMinvZw8Q4o=
+
+Name: res/raw/magnet_limitbreak.ogg
+SHA1-Digest: sAFXlg88JF//pacvVrim6wYDlXA=
+
+Name: res/drawable/switch39.jpg
+SHA1-Digest: gB44GkZbKvRUC7WY0Kau0+u9kec=
+
+Name: res/anim/translate_open_exit.xml
+SHA1-Digest: S2aa0kmD2wzbz8ihaoxtb8369CM=
+
+Name: res/drawable/switch27.jpg
+SHA1-Digest: ycRIIwxDlg9VabjfXhWojMZJSeQ=
+
+Name: res/raw/switch09_hopping_on.ogg
+SHA1-Digest: VYim/8zBgenJIqmU+6troL1M1Dw=
+
+Name: res/raw/switch10_elec_on.ogg
+SHA1-Digest: AfDumx7XJp7/haCk4soCFpN03C0=
+
+Name: res/drawable/switch28.jpg
+SHA1-Digest: 5qwwL7OS+sd5w9+BB/5aFm15VP4=
+
+Name: res/drawable/plate_21.jpg
+SHA1-Digest: flaNPD8s8u1116lz3ePOHtn+iZA=
+
+Name: res/raw/switch24_medical_on.ogg
+SHA1-Digest: kX3xU2XzNroOdUFBYYzzyw17ibE=
+
+Name: res/drawable/plate_w.jpg
+SHA1-Digest: Cu/PjyYx/S4U9CcdebL4NkDl6wA=
+
+Name: res/raw/switch29_schop_on2.ogg
+SHA1-Digest: sZK+cLui+G41RHB2gViAHfMkilI=
+
+Name: res/drawable/fourzedriver_m3.png
+SHA1-Digest: FHGaj6vAcu4E+ed/X6q02uwUzA0=
+
+Name: res/raw/switch04_radar_on.ogg
+SHA1-Digest: A3+8cEVnWkhcDtitsf+YHEhQjXI=
+
+Name: res/raw/phone07.ogg
+SHA1-Digest: 7V1tcdR2jvGgfT7/D9rvLxLCWAE=
+
+Name: res/raw/switch09_hopping.ogg
+SHA1-Digest: 2ikpi8FyIzQlOFjLiXlMwtLv5dY=
+
+Name: res/drawable/switch32.jpg
+SHA1-Digest: MsnrA5BO4luvQPYAx+hf+SSpbAs=
+
+Name: res/raw/switch31_magnet_on.ogg
+SHA1-Digest: RnDQ9bp7oIQKbCng9WddVVsvaL0=
+
+Name: res/raw/switch02_launcher_on.ogg
+SHA1-Digest: kBqujdWOGrMPHEDpfs19KzZhFwA=
+
+Name: res/raw/switch27_screw_on.ogg
+SHA1-Digest: urRVBefDrXRng+lTYRGeGghglRE=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: Z+eZrAZwNlNDyEagwxdj2ODdYQs=
+
+Name: res/raw/switch_riderman_on.ogg
+SHA1-Digest: XwLZGxuAZTruIXLCq/Oz8+dDp8c=
+
+Name: res/drawable/switch11.jpg
+SHA1-Digest: sHYxLnnTTxAqGWOfbU8FZBfhHXg=
+
+Name: res/drawable/switch28a.jpg
+SHA1-Digest: n3f+h0rvNbYgqIktelglJi6SpNA=
+
+Name: res/drawable/parts_left_leg.png
+SHA1-Digest: hcaCio0Tb92RBlQprtOZXf7J9lQ=
+
+Name: res/drawable/switch36a.jpg
+SHA1-Digest: YZ8mrB8XrHuhxEdCb0PptYSEi84=
+
+Name: res/drawable/plate_kabuto.jpg
+SHA1-Digest: 6IolI4/8yuObfwdjZD8FB6LUIj0=
+
+Name: res/raw/switch10_elec.ogg
+SHA1-Digest: df/SnPcqyZFi0NXspFBPVS6Qvg0=
+
+Name: res/drawable/fourzedriver_off1.png
+SHA1-Digest: uQ5uWnc1P7uWS2BOQGQZ2yqovac=
+
+Name: res/drawable/plate_stronger.jpg
+SHA1-Digest: IjEwbU6rVVzqn9rqSkudYi98Uhw=
+
+Name: res/drawable/plate_20.jpg
+SHA1-Digest: HMUCeHvz5Jgqh9JJi8ZDYh/7C0M=
+
+Name: res/drawable/switch26.jpg
+SHA1-Digest: Pc/wrOkgf2chr1Vr/s4bADdHuJA=
+
+Name: res/raw/switch02_launcher.ogg
+SHA1-Digest: QJFocUmbJAy6/8NHtUbHgAQ3tcQ=
+
+Name: res/raw/switch13_chainarray_on.ogg
+SHA1-Digest: c2geVkkVczFmD+0RVM6ZSrhbfI0=
+
+Name: res/drawable/switchamazon.jpg
+SHA1-Digest: 35OwIL2MrQhnsK//D/7vBHn6h9k=
+
+Name: res/drawable/switchryuki.jpg
+SHA1-Digest: Ji01WGdTA61lb79TFPwghoC7D2Q=
+
+Name: res/drawable/fourzedriver_m1.png
+SHA1-Digest: XT9sx5KNyoS7WelT/1PkvQacFEk=
+
+Name: res/drawable/switch3031a.jpg
+SHA1-Digest: 9Pq3q3iJBfnLGrBqVtbPIwNFDXI=
+
+Name: res/drawable/fourzedriver_up4a.png
+SHA1-Digest: NxqFX+3vwHh4/F/7QdDCjhaNFKA=
+
+Name: res/drawable/switch34a.jpg
+SHA1-Digest: v8egizR4fop6LaNEJGMypIvYBA4=
+
+Name: res/drawable/parts_right_arm.png
+SHA1-Digest: IahBGNzYvV/f6uKE9BOY3D7gtFM=
+
+Name: res/drawable/switch15a.jpg
+SHA1-Digest: cphsFKcbTKar08NX8dW2/UGEVvE=
+
+Name: res/drawable/switchv3a.jpg
+SHA1-Digest: bV5Yw4/C1rAwZr+HgwNf+cPYlD8=
+
+Name: res/raw/switch30_magnet_on.ogg
+SHA1-Digest: 1/MfBY2sOpqoTcALSzsf0h1zwbE=
+
+Name: res/drawable/plate_23.jpg
+SHA1-Digest: v6/tuEFKi/2Yju2TfPc8GD25K9Y=
+
+Name: res/drawable/parts_body_light.png
+SHA1-Digest: Jex76/KXKiHs/pIZR4fPVPPLL/o=
+
+Name: res/raw/switch23_water_on.ogg
+SHA1-Digest: rKUwDPKOdP3D2AEmM6BWJVniz7g=
+
+Name: res/drawable/switch1gou.jpg
+SHA1-Digest: 14yryyt9jB8nC7okJxhLULhJR0s=
+
+Name: res/raw/limitbreak.ogg
+SHA1-Digest: 9nTnJ7oldZHqusYSm0vJtk8u36Q=
+
+Name: res/drawable/plate_decade.jpg
+SHA1-Digest: XnwcrkzvpsLqg85XmhBvp8dnEVk=
+
+Name: res/drawable/switch08.jpg
+SHA1-Digest: dnfNSooOVmC5CPjkAVCAdIi3bpw=
+
+Name: res/raw/switchtakeoff.ogg
+SHA1-Digest: GMh+UXGKlRR7lugCHjd4ibWmrVs=
+
+Name: res/drawable/plate_39.jpg
+SHA1-Digest: BLTLFv8SIlsQ79TLewA1bZ/17+U=
+
+Name: res/drawable/switchkabuto.jpg
+SHA1-Digest: 1tNeFPDaiqEMuzffhLkQycp0z2g=
+
+Name: res/drawable/switchwa.jpg
+SHA1-Digest: eSwupoDCL71JSXJFbGhDrYdoz1g=
+
+Name: res/drawable/limitbreak_magnet.jpg
+SHA1-Digest: u1fXWz6Lqfhg13l3BE6Kc0oHkwU=
+
+Name: res/drawable/switch26a.jpg
+SHA1-Digest: PDGj78yfTydVgmkUovqVUSm0Jsc=
+
+Name: res/drawable/switch21.jpg
+SHA1-Digest: TjwG+RpgZ4acSC36bwpNbBqRY1M=
+
+Name: res/raw/switch14_smoke.ogg
+SHA1-Digest: rxbiKEue5BTP8K+7s2kdiP8wzHs=
+
+Name: res/drawable/switch2goua.jpg
+SHA1-Digest: 8gYKMkUSw2nt2JR30c5NKWx7JsM=
+
+Name: res/drawable/fourzedriver_down8.png
+SHA1-Digest: zMaN3oqpLonZO03HGpbgPNK88yU=
+
+Name: res/raw/switch33_crow.ogg
+SHA1-Digest: wkcMw8ghC1T8qmGNmp1C1GU164g=
+
+Name: res/drawable/fourzedriver_up4b.png
+SHA1-Digest: 6SjcojoeKj7UUYbPlu+kGSP0Wek=
+
+Name: res/drawable/fourzedriver_up2a.png
+SHA1-Digest: f6g53XfIxfHESv7RybVFUT0WQt8=
+
+Name: res/drawable/left_leg.jpg
+SHA1-Digest: 4pBY/1Iyu5OTbK0lL+SftFsVOYc=
+
+Name: res/raw/switch38_net_on.ogg
+SHA1-Digest: hir021B3V+tOu4dcxb0D4hcn4/M=
+
+Name: res/drawable/switch555.jpg
+SHA1-Digest: pwTUTFnO4wBcTukmygKd2igz71M=
+
+Name: res/raw/switch07_parachute_on.ogg
+SHA1-Digest: jPcMR6CkrXwyiewGVQp00NfQpXo=
+
+Name: res/drawable/limitbreak_rocket_drill.jpg
+SHA1-Digest: 3a5dF2MLKdjHZyGsPdVnQWPvfWk=
+
+Name: res/drawable/switch01.jpg
+SHA1-Digest: J/HdHatCCNid/Nj4kNx7JlUMu5A=
+
+Name: res/drawable/plate_24.jpg
+SHA1-Digest: ghgSoyortBeAwIjhaTXsIE4A0TU=
+
+Name: res/drawable/plate_09.jpg
+SHA1-Digest: 3UODpic8q+mpP9yh/iJXKqQPsns=
+
+Name: res/drawable/fourzedriver.jpg
+SHA1-Digest: Ryj7Z894yt9LFdVWgcWya4JkN4Q=
+
+Name: res/drawable/switchkuuga.jpg
+SHA1-Digest: WCx2amRADnb47yxrlmHR+i9rlx0=
+
+Name: res/drawable/switch1goua.jpg
+SHA1-Digest: HFBlws7cuEGly59HbLWgwsSodI8=
+
+Name: res/drawable/fourze.jpg
+SHA1-Digest: s2Nk8Or+AxDb/Pk1lh2foX5QeTc=
+
+Name: res/drawable/fourzedriver_up6a.png
+SHA1-Digest: i5fQSqIdByM7T6E4a/IRlQNfl44=
+
+Name: res/drawable/plate_01.jpg
+SHA1-Digest: KcWCyZ//ZesykTDKwXleuN604CQ=
+
+Name: res/raw/phone01.ogg
+SHA1-Digest: JFIsKHdwuZnKPGgG82G08/yvKuw=
+
+Name: resources.arsc
+SHA1-Digest: 8J/LBLLdjG1u5kKP6Mj70Fs26Ls=
+
+Name: res/raw/switch35_giantfoot_on.ogg
+SHA1-Digest: AbnkZdjvzD6aF7MPA934UF2dnYQ=
+
+Name: res/drawable/parts_right_arm_light.png
+SHA1-Digest: 8aVfb+i9gdjQwh6127vZKG+OY2Y=
+
+Name: res/drawable/fourzedriver_on3.png
+SHA1-Digest: JzoJ/Nk7xTy+AYtEeLfOJN7adew=
+
+Name: res/raw/switch_stronger_on.ogg
+SHA1-Digest: QXg0HOn7qmlovUDJ/JwUY/DV1Hc=
+
+Name: res/raw/phone03.ogg
+SHA1-Digest: taXXS/NsZBQ0ZGR0RTz5mPNmUyM=
+
+Name: res/drawable/switch22a.jpg
+SHA1-Digest: x8IFsntAmnHCZCJNX8uXujgEwp8=
+
+Name: res/drawable/plate_28.jpg
+SHA1-Digest: +hb4zokQpiNiO5LzKKXTgd85o3k=
+
+Name: res/drawable/switch07.jpg
+SHA1-Digest: qmWebjvqpsaGcKjre2tOA0qYNC8=
+
+Name: res/drawable/plate_2gou.jpg
+SHA1-Digest: 1H4OjYf46q4RvcMFDcbqYPq77po=
+
+Name: res/drawable/switch05a.jpg
+SHA1-Digest: +Wt8IgIuGkdDKWVO8bDRXIs/bW8=
+
+Name: res/drawable/switchdeno.jpg
+SHA1-Digest: IJBNywo5NuFQaXGFh0Cv7TM26zg=
+
+Name: res/drawable/switchooo.jpg
+SHA1-Digest: nRQLVUzpYDSs+3vCh6NWFUMPCu0=
+
+Name: res/raw/gacha.ogg
+SHA1-Digest: a+jXSUEA4BgFQMPP1Pf5V/A25JQ=
+
+Name: res/drawable/switch14.jpg
+SHA1-Digest: MM3ZSMZ7PTjueEcsAPNizXD/0Dg=
+
+Name: res/raw/switch38_net.ogg
+SHA1-Digest: OgbadVEtIyRIcbOqQ8mmjU8+gmg=
+
+Name: res/drawable/switch39a.jpg
+SHA1-Digest: 6BX1sPwcgMGjBJVrCvrErrGu6AQ=
+
+Name: res/raw/switch08_chainsaw.ogg
+SHA1-Digest: kAUZGu7jve02XRz3KEH3LaqlteA=
+
+Name: res/raw/switch_x_on.ogg
+SHA1-Digest: oaBJ8V68uQVbm0KRNtlLmTYeExc=
+
+Name: res/raw/switch12_beat.ogg
+SHA1-Digest: vmEU8QimUxNAIvXoYAN2GYP8cqk=
+
+Name: res/drawable/switch30.jpg
+SHA1-Digest: 2CH4vPBkWHgNlHr932WQSDSp5UU=
+
+Name: res/raw/switch_deno_on.ogg
+SHA1-Digest: fj76eYsZZiththp25rGNtKrT0Kk=
+
+Name: res/raw/switch13_chainarray.ogg
+SHA1-Digest: 8+lLMJnLy6ueKEus2dEHyh0axH0=
+
+Name: res/raw/switch20_fire.ogg
+SHA1-Digest: G02YuEeaDpi5qM5FfIKg983Jq2U=
+
+Name: res/raw/switch_x.ogg
+SHA1-Digest: ieZ/K2FxItV7RwVl9OnCqwSkB4o=
+
+Name: res/drawable/btn40off.jpg
+SHA1-Digest: ylE0JcXyFKr+3Ony0h6uwJ2zdHE=
+
+Name: res/drawable/switchkabutoa.jpg
+SHA1-Digest: mrs5u9sBG0IthV3+n3F0dv6sxWU=
+
+Name: res/raw/phone05.ogg
+SHA1-Digest: 9p6yhtwQci9Iv0tBIiq1rZ46N/A=
+
+Name: res/drawable/switchkibaa.jpg
+SHA1-Digest: 5NTQQh3rp0IWyQQHe8FLbax7x8I=
+
+Name: res/raw/switch11_scissors_on.ogg
+SHA1-Digest: UBdtZCdA6a98bgfKyTWENh4PjE4=
+
+Name: res/raw/switch24_medical.ogg
+SHA1-Digest: cVlb7GHvdXm4hBwls8x29E0Wv3s=
+
+Name: res/drawable/fourzedriver_up7b.png
+SHA1-Digest: YlsVL+ECbNaSoYAFST5PTFtEjUs=
+
+Name: res/drawable/switch11a.jpg
+SHA1-Digest: KnUsXg1OnARifh3z4Ryq6JqacFg=
+
+Name: res/raw/switch_blade_on.ogg
+SHA1-Digest: rDPcp1bPGwOdVWcrulxo4jLKOj4=
+
+Name: res/raw/switch3031_magnet_on.ogg
+SHA1-Digest: pOMT/8UCyE4npl0bwLjz1sqq4oc=
+
+Name: res/drawable/plate_33.jpg
+SHA1-Digest: FNrXuUcENCtmuAF4lZXJBwJuEIE=
+
+Name: res/raw/switch33_crow_on.ogg
+SHA1-Digest: SF86aqU5qm+lNg+2cLB+PkQ+NXo=
+
+Name: res/raw/se321.ogg
+SHA1-Digest: j6PtQsUbb8/YPi0TrZUCTQjKEaM=
+
+Name: res/raw/switch37_jayro.ogg
+SHA1-Digest: nQLzl0T4CG4r8tEe3QiP/nhTQf4=
+
+Name: res/drawable/plate_32.jpg
+SHA1-Digest: jZlUrCLTMa4fA6YRRmZ6o3CdRp0=
+
+Name: res/raw/switch_w_on.ogg
+SHA1-Digest: fZ1In0dtpAFc6yuWpsre6zP5siQ=
+
+Name: res/drawable/switch08a.jpg
+SHA1-Digest: hI0cAPCDyT033VNEaZQ/6peD6qc=
+
+Name: res/raw/switch05_magichand.ogg
+SHA1-Digest: pG1gA1byjVAvGAhVWrXuS7ECLtk=
+
+Name: res/layout/main.xml
+SHA1-Digest: wFljJmEpLWivl9r9acDhgwMv4so=
+
+Name: res/drawable/switch18a.jpg
+SHA1-Digest: l0K9V8wdTucZ9t8G3GCsA+Q3F3Q=
+
+Name: res/drawable/fourzedriver_off4.png
+SHA1-Digest: VXv3puOglegXhtSUhnAJ/KT0UOs=
+
+Name: res/drawable/plate_03.jpg
+SHA1-Digest: vQMQANkm8rtguQJM/ixyl909vRU=
+
+Name: res/raw/switch_2gou_on.ogg
+SHA1-Digest: LAUuKVSp+s5rz5LgNqxr0OZO3SU=
+
+Name: res/raw/switch_kiba.ogg
+SHA1-Digest: CdyeHN9HCMRrYfUE/rPNVATqId8=
+
+Name: res/drawable/plate_31.jpg
+SHA1-Digest: 2GW3ne5mroCWvviJRdb0/tUaOzs=
+
+Name: res/drawable/plate_ooo.jpg
+SHA1-Digest: 6MxJFaBC0LWQdGEinuFp6FRaLiU=
+
+Name: res/drawable/plate_07.jpg
+SHA1-Digest: nYLMGPlcJvjJkyFQXSqw/PSSsQM=
+
+Name: res/raw/cosmic_danger.ogg
+SHA1-Digest: MLZr3kn36duQD4UqB90Do2asdNA=
+
+Name: res/raw/switch01_rocket_on2.ogg
+SHA1-Digest: JiF33HmMq8bts1/fHJmAa4N9dD4=
+
+Name: res/raw/switch07_parachute.ogg
+SHA1-Digest: 6VC/pC+5xWnb8Yw3sYWnOWUdsq8=
+
+Name: res/drawable/switch34.jpg
+SHA1-Digest: UD4r0C3jSeW8Zhtu18OUu3Ej+2M=
+
+Name: res/raw/switch22_hammer.ogg
+SHA1-Digest: jL0u8WpjXADwYlAB+0AZc48oA7I=
+
+Name: res/raw/switch18_shield_on.ogg
+SHA1-Digest: MTfOPFD9NULnAIGio9fEKa4pj+o=
+
+Name: res/raw/switch_kuuga.ogg
+SHA1-Digest: D6lqv8JkGzUAQUrahn2XBMUOizs=
+
+Name: res/raw/switch18_shield.ogg
+SHA1-Digest: uCct7GdP8EAbUghaObKlNliGeiU=
+
+Name: res/drawable/switch04.jpg
+SHA1-Digest: qJ5O8ZoZDMN1W85uU7QihHoXdwk=
+
+Name: res/raw/switch12_beat_on.ogg
+SHA1-Digest: xbYCWGuN9nJok+BAXqVljvs1tV8=
+
+Name: res/drawable/plate_18.jpg
+SHA1-Digest: uqyEMH+AvC/WkoHsC7sCyVNe8fw=
+
+Name: res/raw/switch01_rocket.ogg
+SHA1-Digest: OCfA7JpRz4WW+t212OAnkQ7GKjQ=
+
+Name: res/raw/switch36_aero.ogg
+SHA1-Digest: FbYeP+I92ZJIjRI+A6TH+AxZzgs=
+
+Name: res/drawable/plate_fusion.jpg
+SHA1-Digest: 3d547lRFW1VHpaXGdEzFclBWKLc=
+
+Name: res/raw/switch_ryuki.ogg
+SHA1-Digest: +RxdT2zd8dC137mJ7xOepx1aAic=
+
+Name: res/drawable/switch29.jpg
+SHA1-Digest: j/j1y+wnz18nHqqwQQNt6bk+Z+c=
+
+Name: res/drawable/parts_right_leg.png
+SHA1-Digest: 7TFfovMou/d0tbXcdnb6cH/4r8E=
+
+Name: res/drawable/switch31.jpg
+SHA1-Digest: jYRugQ2DXPyzBJBSb3LWyOjRiRs=
+
+Name: res/drawable/switch16a.jpg
+SHA1-Digest: xo6ypv5Pxr1LBRcoqfm6sW4P0R8=
+

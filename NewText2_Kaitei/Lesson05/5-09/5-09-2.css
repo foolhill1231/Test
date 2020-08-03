@@ -1,0 +1,14 @@
+﻿@charset "UTF-8";
+
+p {
+	text-indent: 1em;
+	margin-bottom: 2em;
+}
+
+p.kome {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+p + p.kome { margin-top: -1em; }
+

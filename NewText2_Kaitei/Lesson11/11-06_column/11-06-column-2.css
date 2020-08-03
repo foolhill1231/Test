@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.catch {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+.helo-image {
+	background-image: url('forest.jpg');
+	width: 600px;
+	height: 600px;
+}

@@ -1,0 +1,19 @@
+﻿@charset "UTF-8";
+
+strong { color: #ff0000; }
+.point01 {
+	color: #2eb473;
+	font-weight: bold;
+}
+.point02 {
+	color: #ff8100;
+	font-size: 24px;
+}
+.introduction:first-line {
+	font-size: 22px;
+}
+.introduction:first-letter {
+	padding: 5px;
+	font-weight: bold;
+	background: #fff0f0;
+}

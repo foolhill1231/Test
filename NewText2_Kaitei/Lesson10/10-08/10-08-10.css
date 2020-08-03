@@ -1,0 +1,24 @@
+@charset "UTF-8";
+#box {
+	display: flex;;
+}
+#box div {
+	width: 100px;
+	height: 100px;
+}
+#box1 {
+	background: #f7c5ab;
+	order: 0;
+}
+#box2 {
+	background: #bfdda2;
+	order: 1;
+}
+#box3 {
+	background: #a4bbd3;
+	order: 2;
+}
+#box4 {
+	background: #d1a6cf;
+	order: 0;
+}

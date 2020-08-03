@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+h2 {
+	background: #d2e4d4 url(images/bg-title.gif) repeat-x 0 0;
+	border-bottom: 2px ridge #fff;
+	padding: 11px 10px 5px;
+	line-height: 1em;
+	margin-bottom: 50px;
+}
+
+/* 以下、書籍に掲載されたCSS */
+p {
+	border: 3px solid #999;
+	padding: 10px;
+}
+
+p.example1 { margin-bottom: 20px; }
+p.example2 { margin-top: 50px; }
+

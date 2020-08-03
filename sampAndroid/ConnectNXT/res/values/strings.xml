@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ConnectNXT</string>
+    <string name="wait_till_bt_on">Bluetoothを有効にします</string>
+    <string name="bt_needs_to_be_enabled">Bluetoothを有効にする必要があります</string>
+    <string name="problem_at_connecting">Bluetoothが接続を開始できません</string>
+    <string name="select_device">デバイスを選択</string>
+    <string name="title_paired_devices">接続履歴のあるNXT</string>
+    <string name="title_other_devices">その他のデバイス</string>
+    <string name="button_scan">デバイスをスキャン</string>
+    <string name="none_paired">接続履歴のある機器はありません</string>
+    <string name="none_found">デバイスが見つかりません</string>
+    <string name="scanning">スキャン中</string>
+    <string name="connecting_please_wait">接続中です \nしばらくお待ちください</string>
+    <string name="pairing_message">ペアリングしてから，接続してください</string>
+    <string name="current_position">現在位置:</string>
+    <string name="no_paired_nxt">ペアリングされたNXTがありません</string>
+    <string name="bt_error_dialog_title">Bluetoothエラー</string>
+    <string name="bt_error_dialog_message">ロボットに接続できません</string>
+    <string name="problem_at_closing">接続を閉じるときに問題が発生しました</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="quit">Quit</string>
+    <string name="connected">接続しました</string>
+</resources>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .cell {
+        width: 100px;
+        height: 100px;
+        font-size: 60px;
+        text-align: center;
+      }
+    </style>
+
+    <script>
+      var count = 0;
+      function clickMe(e) {
+        if (count++ % 2 == 0) {
+          e.textContent = "〇";
+        } else {
+          e.textContent = "×";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <td class="cell" onclick="clickMe(this);"></td>
+        <td class="cell" onclick="clickMe(this);"></td>
+        <td class="cell" onclick="clickMe(this);"></td>
+      </tr>
+      <tr>
+        <td class="cell" onclick="clickMe(this);"></td>
+        <td class="cell" onclick="clickMe(this);"></td>
+        <td class="cell" onclick="clickMe(this);"></td>
+      </tr>
+      <tr>
+        <td class="cell" onclick="clickMe(this);"></td>
+        <td class="cell" onclick="clickMe(this);"></td>
+        <td class="cell" onclick="clickMe(this);"></td>
+      </tr>
+    </table>
+  </body>
+</html>

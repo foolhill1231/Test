@@ -1,0 +1,9 @@
+﻿<meta charset="UTF-8">
+<meta name="description" content="ヘルセムは、忙しいあなたのための健康サポート、日々の食事をお届けするサービスです。">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta property="og:title" content="ページのタイトル">
+<meta property="og:type" content="websiteかblogかarticle">
+<meta property="og:description" content="ページの簡単な説明">
+<meta property="og:url" content="ページのURL">
+<meta property="og:site_name" content="サイトのタイトル">
+<meta property="og:image" content="サムネイル画像のURL">

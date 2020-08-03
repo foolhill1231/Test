@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Document</title>
+
+    <!-- <reference path="HTML/jquery.d.ts" /> -->
+    <script src="jquery-3.5.0.min.js"></script>
+  </head>
+  <body>
+    <ul id="family">
+      <li>太郎</li>
+      <li>次郎</li>
+    </ul>
+    <script>
+      jQuery(function ($) {
+        $("#color_div").css("border", "5px solid green");
+      });
+
+      jQuery(function ($) {
+        $("<li>三郎<?li>").appendTo("#family");
+      });
+    </script>
+
+    <script>
+      //   $(function () {
+      //     $("img").k;
+      //   });
+      //
+    </script>
+
+    <div id="color_div">ここのＤＩＶの枠線をｊＱｕｅｒｙで変更します</div>
+  </body>
+</html>

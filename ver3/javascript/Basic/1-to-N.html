@@ -1,0 +1,21 @@
+﻿<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            function calcSum() {
+                var max = document.getElementById("max").value;
+                var total = 0;
+                for (var i = 1 ; i <= max ; i++) {
+                    total += i;
+                }
+                document.getElementById("val").textContent = max;
+                document.getElementById("sum").textContent = total;
+            }
+        </script>
+    </head>
+    <body>
+        <h2>1から<span id="val"></span>の合計は<span id="sum"></span></h2>
+        <input id="max" value="10" />
+        <button onclick="calcSum()">合計</button>
+    </body>
+</html>

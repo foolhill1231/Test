@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.appeal {
+	display: flex;
+	align-items: flex-start;
+}
+.appeal img {
+	order: 2;
+}
+.appeal p {
+	order: 1;
+}

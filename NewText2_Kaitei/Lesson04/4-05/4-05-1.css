@@ -1,0 +1,14 @@
+﻿@charset "UTF-8";
+
+#introduction {
+	border: 1px solid #000000;
+	padding: 10px;
+}
+
+h2,p { color: #000000; }
+
+.robot { background: #eaeaea; }
+
+h3 { color: #ff0000; }
+
+div.ai strong { color: #ff0000; }

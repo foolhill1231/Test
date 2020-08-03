@@ -1,0 +1,10 @@
+﻿@charset "UTF-8";
+
+html { font-size: 62.5%; }
+h3 {
+	font-size: 2rem;
+	color: #ffffff;
+	background-color: #257A01;
+}
+p { font-size: 1.5rem; }
+strong { color: #ff0000; }

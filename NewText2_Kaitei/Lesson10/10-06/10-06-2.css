@@ -1,0 +1,8 @@
+@charset "UTF-8";
+h3 { background: #e6e6e6; }
+
+aside {
+	border: 1px solid #dddddd;
+	width: 350px;
+	padding: 20px;
+}

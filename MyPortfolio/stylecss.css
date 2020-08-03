@@ -1,0 +1,17 @@
+#calendar {
+  font-size: large;
+  /* background-color: greenyellow; */
+  width: auto;
+  padding 100px;
+  text-align: center;
+}
+
+select{
+  font-size: 20px;
+}
+
+form{
+
+  font-family:sans-serif ;
+  text-align: center;
+}

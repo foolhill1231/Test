@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+html { font-size: 62.5%; }
+div {
+	font-size: 2rem;
+	text-align: center;
+	color: #fff;
+}
+.wrap { margin: 5em; }
+
+
+.container_box{
+	display: flex;
+	background-color: #fad961;
+	padding: 1rem 1.5rem;
+}
+.item{
+	background-color: #f76b1c;
+	margin: 0 0.5rem 0.5rem 0;
+	padding: 1rem 1.5rem;
+}

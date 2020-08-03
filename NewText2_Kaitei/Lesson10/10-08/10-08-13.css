@@ -1,0 +1,16 @@
+@charset "UTF-8";
+#box {
+	display: flex;
+}
+#box1 {
+	background: #f7c5ab;
+	flex: 2;
+}
+#box2 {
+	background: #bfdda2;
+	flex: 1;
+}
+#box3 {
+	background: #a4bbd3;
+	flex: 1;
+}

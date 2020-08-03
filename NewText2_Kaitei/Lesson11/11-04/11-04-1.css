@@ -1,0 +1,20 @@
+@charset "UTF-8";
+dt {
+	float: left;
+	clear: both;
+	padding: 20px 0;
+	width: 8em;
+}
+dd { padding: 20px 0; }
+input:enabled {
+	border: 1px solid #cccccc;
+	border-radius: 6px;
+	padding: 0.4em;
+}
+input:disabled {
+	border: 1px solid #cccccc;
+	border-radius: 6px;
+	padding: 0.4em;
+	background: #e5e5e5;
+}
+#next { background: #ffffff; }

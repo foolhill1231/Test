@@ -1,0 +1,32 @@
+table {
+  color: chartreuse;
+}
+table th[:scope="col"] {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 20px;
+}
+
+table td {
+  background-color: blue;
+  text-align: right;
+  padding: 20px;
+}
+
+table tr:nth-child(even) {
+  background-color: aqua;
+}
+
+p {
+  color: chartreuse;
+}
+
+#middle {
+  font-size: 10px;
+  color: crimson;
+  background-color: aqua;
+}
+
+div {
+  font-size: 10px;
+  display: flex;
+}

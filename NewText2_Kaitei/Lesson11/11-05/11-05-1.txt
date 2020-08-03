@@ -1,0 +1,2 @@
+background: #dfd157;
+background: linear-gradient(to bottom, #dfd157 0%,#c25f1e 100%);

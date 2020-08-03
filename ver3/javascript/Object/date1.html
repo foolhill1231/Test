@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            var startDate;
+            function startTimer() {
+                startDate = new Date();
+                document.getElementById("time").textContent = "started...";
+            }
+            function stopTimer() {
+                var now = new Date();
+                var elapsed = now.getTime() - startDate.getTime();
+                document.getElementById("time").textContent = elapsed;
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="startTimer()">スタート</button>
+        <button onclick="stopTimer()">ストップ</button>
+        <h2 id="time"></h2>
+    </body>
+</html>

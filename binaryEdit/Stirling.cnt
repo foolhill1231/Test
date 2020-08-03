@@ -1,0 +1,59 @@
+:Base STIRLING.hlp
+:Title Stirlingヘルプ
+:Index Stirlingヘルプ = STIRLING.hlp
+1 概要 =HELPC_0002>main
+1 ＦＡＱ =HELPC_0173>main
+1 使い方
+2 インストール・アンインストール =HELPC_0150>main
+2 基本操作 =HELPC_0151>main
+2 構造体定義ファイル =HELPC_0001>main
+2 ファイルの排他制御 =HELPC_0157>main
+2 ビットイメージ =HELPC_0158>main
+2 「比較」の便利な使い方 =HELPC_0164>main
+1 メニュー
+2  [ファイル] メニュー =HELPC_0013>main
+2  [編集] メニュー =HELPC_0014>main
+2  [検索・移動] メニュー =HELPC_0015>main
+2  [設定] メニュー =HELPC_0016>main
+2  [ウィンドウ] メニュー =HELPC_0017>main
+2  [ヘルプ] メニュー =HELPC_0018>main
+1 系統別機能一覧
+2 ファイル系機能 =HELPC_0005>main
+2 カーソル移動系機能 =HELPC_0006>main
+2 選択系機能 =HELPC_0007>main
+2 編集系機能 =HELPC_0008>main
+2 検索・置換系機能 =HELPC_0009>main
+2 メニュー系機能 =HELPC_0010>main
+2 ウィンドウ系機能 =HELPC_0011>main
+2 その他の機能 =HELPC_0012>main
+1 各種設定
+2 環境設定
+3 環境設定－編集１ =HELPC_0021>main
+3 環境設定－編集２ =HELPC_0166>main
+3 環境設定－ファイル =HELPC_0022>main
+3 環境設定－ウィンドウ =HELPC_0023>main
+3 環境設定－キーアサイン =HELPC_0024>main
+3 環境設定－ユーザーメニュー =HELPC_0025>main
+3 環境設定－ツールバー =HELPC_0026>main
+3 環境設定－ステータスバー =HELPC_0027>main
+2 拡張子別設定
+3 拡張子別設定－拡張子 =HELPC_0028>main
+3 拡張子別設定－表示状態 =HELPC_0029>main
+3 拡張子別設定－色・フォント =HELPC_0030>main
+1 ダイアログボックス
+2 指定アドレスへ移動 =HELPC_0165>main
+2 検索 =HELPC_0145>main
+2 不一致検索 =HELPC_0146>main
+2 置換 =HELPC_0144>main
+2 比較 =HELPC_0142>main
+2 シンクロスクロール =HELPC_0159>main
+2 ＢＧＲＥＰ =HELPC_0141>main
+2 選択範囲の初期化 =HELPC_0143>main
+2 拡張子別設定 =HELPC_0152>main
+2 構造体編集バー =HELPC_0147>main
+1 著作権・連絡先等
+2 著作権・免責 =HELPC_0003>main
+2 環境 =HELPC_0148>main
+2 転載・書籍への収録について =HELPC_0032>main
+2 変更履歴 =HELPC_0031>main
+2 連絡先 =HELPC_0033>main

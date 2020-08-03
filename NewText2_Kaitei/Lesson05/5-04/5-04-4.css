@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+html { font-size: 62.5%; }
+div { margin: 5em; }
+p { font-size: 5rem; }
+
+.wf-roundedmplus1c { font-family: "Rounded Mplus 1c"; }
+.wf-kokoro { font-family: "Kokoro"; }
+.wf-nicomoji { font-family: "Nico Moji"; }

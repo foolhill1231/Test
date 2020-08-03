@@ -1,0 +1,18 @@
+@charset "UTF-8";
+#box {
+	display: flex;
+	flex-direction: row-reverse;
+}
+#box div {
+	width: 100px;
+	height: 100px;
+}
+#box1 {
+	background: #f7c5ab;
+}
+#box2 {
+	background: #bfdda2;
+}
+#box3 {
+	background: #a4bbd3;
+}

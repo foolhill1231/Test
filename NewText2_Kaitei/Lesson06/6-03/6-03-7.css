@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+.svg_bg {
+	background: url(img/test_SVG.svg);
+	width: 300px;
+	height :300px;
+}

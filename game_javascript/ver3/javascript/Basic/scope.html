@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+<script>
+    var score = 0, timer;
+
+    function keydown(e) {
+        var code = e.keyCode;
+        if (code == 34) {
+            // ...
+        }
+        score += 100;
+        // ...
+    }
+
+    function tick() {
+        var now = new Date();
+        if (score > 1000) {
+            clearInterval(timer);
+        }
+        // ...
+    }
+</script>
+    </head>
+    <body>
+        <p>画面は更新されません。ソースをご覧ください。</p>
+    </body>  
+</html>

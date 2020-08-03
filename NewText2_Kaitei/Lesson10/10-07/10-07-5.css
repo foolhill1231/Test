@@ -1,0 +1,11 @@
+@charset "UTF-8";
+#visual { position: relative; }
+#visual .linkbutton {
+	position: absolute;
+	top: 180px;
+	left: 470px;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	padding: 15px;
+	text-decoration: none;
+}

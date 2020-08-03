@@ -1,0 +1,13 @@
+﻿@charset "UTF-8";
+
+p::first-line { color: #ff0000; }
+p::first-letter {
+	font-size: xx-large;
+	font-weight: bold;
+}
+h2::before { content: "◆"; }
+h2::after {
+	content: "Business";
+	font-size: small;
+	color: #cccccc;
+}

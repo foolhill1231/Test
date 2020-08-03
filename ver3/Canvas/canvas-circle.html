@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <META charset="UTF-8">
+        <script>
+            var ctx;
+            function init() {
+                var canvas = document.getElementById("canvas");
+                ctx = canvas.getContext("2d");
+                ctx.strokeStyle = "#FF0000";
+                ctx.fillStyle = "#00FFFF";
+                ctx.lineWidth = 5;
+
+                ctx.beginPath();    // 1:円
+                ctx.arc(100, 50, 30, 0, 2 * Math.PI);
+                ctx.closePath();
+                ctx.fill();
+
+                ctx.beginPath();    // 2:扇型（時計回り）
+                ctx.moveTo(200, 50);
+                ctx.arc(200, 50, 30, 0, Math.PI / 3);
+                ctx.closePath();
+                ctx.stroke();
+
+                ctx.beginPath();    // 3:扇型（反時計回り）
+                ctx.moveTo(300, 50);
+                ctx.arc(300, 50, 30, 0, Math.PI / 3, true);
+                ctx.closePath();
+                ctx.stroke();
+
+                ctx.beginPath();    // 4:扇型（反時計回り）
+                ctx.moveTo(400, 50);
+                ctx.arc(400, 50, 30, -1 * Math.PI / 6, Math.PI / 6, true);
+                ctx.closePath();
+                ctx.fill();
+
+                ctx.beginPath();    // 5:円弧のパスのみ
+                ctx.arc(500, 50, 30, 0, 2 * Math.PI / 3);
+                ctx.fill();
+            }
+        </script>
+    </head>
+    <body onload="init()">
+        <canvas id="canvas" width="600" height="400"></canvas>
+    </body>
+</html>

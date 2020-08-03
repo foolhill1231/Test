@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        #canvas {
+            width: 600px; height: 600px;
+        }
+    </style>
+    <script src="Tiny2D.js"></script>
+    <script>
+        "use strict";
+        var ctx, entities = [];
+        var engine;
+
+        function rand(v) {
+            return Math.floor(Math.random() * v);
+        }
+        function init() {
+            var r;
+            engine = new Engine(0, 0, 800, 800, 0, 0);
+
+            var ball = new CircleEntity(0, 100, 10, BodyDynamic, 0.9);
+            ball.velocity.x = 10;
+            ball.velocity.y = 0;
+            engine.entities.push(ball);
+
+            ball = new CircleEntity(200, 200, 10, BodyDynamic, 0.9);
+            ball.velocity.x = 0;
+            ball.velocity.y = -5;
+            engine.entities.push(ball);
+
+
+            ball = new CircleEntity(0, 300, 10, BodyDynamic, 0.9);
+            ball.velocity.x = 5;
+            engine.entities.push(ball);
+
+            ball = new CircleEntity(0, 400, 10, BodyDynamic, 0.9);
+            ball.velocity.x = 5;
+            ball.velocity.y = -5;
+            engine.entities.push(ball);
+
+            ball.color = "yellow";
+            r = new RectangleEntity(50, 400, 350, 50);
+            r.tag = "floor";
+            engine.entities.push(r);
+
+
+            ctx = document.getElementById("canvas").getContext("2d");
+            setInterval(tick, 500);
+        }
+
+        var colors = ["yellow", "green", "orange", "blue", "white"];
+
+        function repaint() {
+            ctx.fillStyle = "black";
+            ctx.fillRect(0, 0, 600, 600);
+            ctx.fillStyle = "yellow";
+            for (var i = 0 ; i < engine.entities.length; i++) {
+                var e = engine.entities[i];
+                ctx.fillStyle = colors[i % colors.length];
+                switch (e.shape) {
+                    case ShapeCircle:
+                        ctx.beginPath();
+                        ctx.arc(e.x, e.y, e.radius, 0, Math.PI * 2);
+                        ctx.closePath();
+                        ctx.fill();
+                        break;
+                    case ShapeRectangle:
+                        ctx.fillRect(e.x, e.y, e.w, e.h);
+                        break;
+                }
+            }
+        }
+        
+        function tick() {
+            engine.step(0.01);
+            repaint();
+        }
+    </script>
+</head>
+<body onload="init()">
+    <canvas id="canvas" width="600" height="600"></canvas>
+</body>
+</html>

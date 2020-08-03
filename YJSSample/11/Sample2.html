@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="Form.css">
+<title>サンプル</title>
+</head>
+<body>
+<script src="Sample2.js" charset="UTF-8"></script>
+<form name="myform" action="Sample2.html" onsubmit="return check()">
+<table>
+<tr>
+<td>お名前</td>
+<td>
+<input type="text" name ="name"/>
+</td>
+</tr>
+<tr>
+<td>性別</td>
+<td>
+<input type="radio" value="男性" name ="gen" checked/>男性
+<input type="radio" value="女性" name ="gen"/>女性
+</td>
+</tr>
+</table>
+<input type="submit" value="送信"/>
+</form>
+</body>
+</html>

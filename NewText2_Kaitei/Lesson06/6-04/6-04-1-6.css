@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+img {
+	border: 2px solid #2af598;
+	border-radius: 1rem;
+	padding: 5px;
+	box-shadow: 3px 3px 5px #777777;
+}

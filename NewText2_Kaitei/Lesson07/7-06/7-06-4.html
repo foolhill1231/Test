@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<title>表組みで行をグループ化した記述例</title>
+<link rel="stylesheet" href="7-06-4.css">
+</head>
+
+<body>
+<!-- セルの境界をわかりやすくするためHTML内にborder属性を使って罫線を指定していますが、罫線の指定は本来CSSで行います。 -->
+<table border="1">
+  <thead>
+    <tr>
+      <th>商品名</th>
+      <th>単価</th>
+      <th>個数</th>
+      <th>金額</th>
+    </tr>
+  </thead>
+  <tbody>
+     <tr>
+      <td>Webデザインの新しい教科書</td>
+      <td>2,500円</td>
+      <td>5冊</td>
+      <td>12,500円</td>
+    </tr>
+    <tr>
+      <td>Webデザインの新しい教科書2</td>
+      <td>2,500円</td>
+      <td>3冊</td>
+      <td>7,500円</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>小計</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>20,000円</td>
+    </tr>
+    <tr>
+      <td>配送料</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>750円</td>
+    </tr>
+    <tr>
+      <td>合計</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>20,750円</td>
+    </tr>
+  </tfoot>
+</table>
+</body>
+
+</html>

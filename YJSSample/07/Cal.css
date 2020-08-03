@@ -1,0 +1,13 @@
+body{
+   background-color: white;
+   color:  maroon;
+   font-size: 1.5em;
+   font-family: cursive;
+}
+h1{
+   background-color: deeppink;
+   color: white;
+   font-size: 2em;
+   font-family: cursive;
+   text-align: center;
+}

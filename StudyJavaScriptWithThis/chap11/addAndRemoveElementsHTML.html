@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>要素の追加と削除サンプル</title>
+		<style type="text/css">
+			.blueText {
+				color: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<ul id="skillList">
+			<li>HTML</li>
+			<li>JavaScript</li>
+			<li>PHP</li>
+			<li>SQL</li>
+		</ul>
+		<p>
+			<input type="text" id="addListItemInput" name="addListItemInput" placeholder="追加する文字列">
+			<button type="button" onclick="onAddListItemButtonClick()">リスト末尾に追加</button>
+		</p>
+		<p>
+			<button type="button" onclick="onRemoveListItemButtonClick()">最後のリスト要素を削除</button>
+		</p>
+		<p>
+			<input type="text" id="addLinkUrl" name="addLinkUrl" placeholder="URL"><br>
+			<input type="text" id="addLinkName" name="addLinkName" placeholder="リンク名"><br>
+			<button type="button" onclick="onAddLinkButtonClick()">入力された情報でリンクを作成</button>
+		</p>
+		<p id="addLink"></p>
+		<script type="text/javascript" src="addAndRemoveElements.js"></script>
+	</body>
+</html>

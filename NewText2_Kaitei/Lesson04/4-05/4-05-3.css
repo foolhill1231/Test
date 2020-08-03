@@ -1,0 +1,15 @@
+﻿@charset "UTF-8";
+
+img {
+	border: 3px solid #eaeaea;
+	padding: 5px;
+	background: #ffffff;
+}
+
+img[alt] { border-color: #ff0000; }
+
+img[alt="りんちゃん"] { border-color: #e07fad; }
+
+span > strong { color: #ff0000; }
+
+h1 + div { background: #ffecec; }

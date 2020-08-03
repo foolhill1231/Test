@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script>
+window.onload = function () {
+    document.getElementById("yes").onclick = myhandler;
+    document.getElementById("no").onclick = myhandler;
+}
+function myhandler(e) {
+    document.getElementById("status").textContent =
+        e.target.textContent + "が選ばれました"
+}
+    </script>
+</head>
+<body>
+    <button id="yes">はい</button>
+    <button id="no">いいえ</button>
+    <h1 id="status"></h1>
+</body>
+</html>

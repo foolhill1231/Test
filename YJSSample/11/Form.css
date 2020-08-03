@@ -1,0 +1,12 @@
+body{
+   background-color: white;
+   color: black;
+}
+table{
+   background-color: mediumaquamarine;
+   border: white 2px solid;
+}
+td{
+   width: 200px;
+   border: white 1px solid;
+}

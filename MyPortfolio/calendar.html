@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>カレンダー</title>
+    <link rel="stylesheet" href="stylecss.css" />
+    <script type="text/javascript" src ="calendardata.js"></script>
+  </head>
+  <body>
+    <form method="POST" name ="form1">
+    <!-- <form action="sample1.cgi" method="post" name="form1"> -->
+
+      <select size="1" name= "month">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10<optiont>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+    </from>
+      月
+      </p>
+
+      <table>
+<tr>
+  <th>
+    <span scope="row">選択した月<br>
+    </th>
+
+    
+    <td>
+      <span id="span1"></span>
+      <input type="button" value="月" onclick="clickBtn1()"/></div></td>
+    </td>
+    <td>
+</tr>
+
+      </table>
+        <!-- <script>
+          function clickBtn1(){
+            const mon = document.form1.month;
+            const num=mon.selectedIndex;
+            const str=mon.options[num].value;
+            document.getElementById("span1").textContent=str;
+          }
+
+         </script>
+       -->
+      </p>
+    <div id="calendar"></div>
+    <script src="calendardata.js"></script>
+
+    <script>
+      console.log(document.getElementById("span1").textContent);
+    </script>
+  </body>
+</html>

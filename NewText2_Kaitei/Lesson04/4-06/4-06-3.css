@@ -1,0 +1,5 @@
+﻿@charset "UTF-8";
+
+input:focus { background: #ffffcc; }
+span:lang(en) { color: #b7b7b7; font-size: smaller; }
+h2:first-child { background: #c1d9f7; }

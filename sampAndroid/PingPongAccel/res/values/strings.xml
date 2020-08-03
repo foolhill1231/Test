@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">卓球少女養成ギブス</string>
+    <string name="start">開始</string>
+    <string name="end">終了</string>
+    <string name="comeOn">がんばれ！がんばれ！</string>
+    <string name="excellent">よいスイング</string>
+    <string name="good">まあまあなスイング</string>
+    <string name="noGood">ダメなスイング</string>
+</resources>

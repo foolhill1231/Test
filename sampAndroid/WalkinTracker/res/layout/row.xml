@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="5dp">
+  	<TextView
+		android:id="@+id/_id"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	<TextView
+		android:id="@+id/date"
+		android:paddingLeft="10dp"
+		android:textSize= "16sp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	<TextView
+		android:id="@+id/eltime"
+		android:paddingLeft="10dp"
+		android:textSize= "16sp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	<TextView
+		android:text="@string/second"
+		android:textSize= "16sp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	<TextView
+		android:id="@+id/distance"
+		android:paddingLeft="10dp"
+		android:textSize= "16sp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	<TextView
+		android:text="@string/km"
+		android:textSize= "16sp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	<TextView
+		android:id="@+id/place"
+		android:paddingLeft="10dp"
+		android:textSize= "16sp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+</LinearLayout>

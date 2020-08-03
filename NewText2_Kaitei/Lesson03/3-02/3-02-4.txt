@@ -1,0 +1,8 @@
+﻿<base href="http://◯◯◯.co.jp/">
+<script type="text/JavaScript" src="javascript.js"></script>
+<style>
+p {
+	color: #333333;
+	font-weight: bold;
+}
+</style>

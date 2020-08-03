@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">        
+        <script>
+            var ctx, points = [];
+            function init() {
+                var canvas = document.getElementById("canvas");
+                ctx = canvas.getContext("2d");
+                ctx.strokeStyle = "#FF0000";
+                canvas.onmousedown = mymousedown;
+                canvas.onmousemove = mymousemove;
+                canvas.onmouseup = mymouseup;
+            }
+            function mymousedown(e) {
+                points = [{ x: e.offsetX, y: e.offsetY }];
+            }
+            function mymousemove(e) {
+                if (points.length > 0) {
+                    points.push({ x: e.offsetX, y: e.offsetY });
+                }
+                paint();
+            }
+            function mymouseup(e) {
+                points = [];
+            }
+            function paint() {
+                ctx.clearRect(0, 0, 500, 500);
+                if (points.length <= 1) {
+                    return;
+                }
+                ctx.beginPath();
+                ctx.moveTo(points[0].x, points[0].y);
+                for (var i = 1 ; i < points.length ; i++) {
+                    ctx.lineTo(points[i].x, points[i].y);
+                }
+                ctx.stroke();
+            }
+        </script>
+    </head>
+    <body onload="init()">
+        <canvas id="canvas" width="500" height="500" 
+        style="width:500px; height:500px; border: 1px solid black;"></canvas>        
+    </body>
+</html>

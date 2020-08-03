@@ -1,0 +1,15 @@
+<div id=header>
+  〜（ヘッダー）〜
+</div>
+<div id="navigation">
+  〜（ナビゲーション）〜
+</div>
+<div id=main>
+  〜（メインコンテンツ）〜
+</div>
+<div id="sidebar">
+  〜（サイドバー）〜
+</div>
+<div>
+  〜（フッター）〜
+</div>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Bootstrapの使用例</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        form { padding: 20px; }
+        dt { margin-top: 7px; }
+        dd { margin-bottom: 20px; }
+    </style>
+</head>
+
+<body>
+    <form action="" method="" class="form-inline">
+        <dl class="dl-horizontal">
+            <dt>会社名</dt>
+            <dd><input type="text" class="form-control" name="company" value="" id="company"></dd>
+            <dt>ご担当者名</dt>
+            <dd><input type="text" class="form-control" name="name" value="" id="name"></dd>
+            <dt>メールアドレス</dt>
+            <dd><input type="email" class="form-control" name="mail" value="" id="mail"></dd>
+            <dt>ホームページアドレス</dt>
+            <dd><input type="url" class="form-control" name="homepage" value="" id="homepage"></dd>
+            <dt>住所</dt>
+            <dd>〒<input type="text" class="form-control" name="zip" value="" id="zip" size="7"> - <input type="text" class="form-control" name="address" value="" id="address"></dd>
+            <dt>電話番号</dt>
+            <dd><input type="text" class="form-control" name="tel1" value="" id="tel1" size="4"> - <input type="text" class="form-control" name="tel2" value="" id="tel2" size="4"> - <input type="text" class="form-control" name="tel3" value="" id="tel3" size="4"></dd>
+            <dt>来訪希望日</dt>
+            <dd><input type="date" class="form-control" name="visitdate" value="" id="visitdate"></dd>
+            <dt>来訪希望時間</dt>
+            <dd><input type="time" class="form-control" name="visitdatetime" value="" id="visitdatetime"></dd>
+        </dl>
+        <p><input type="submit" class="btn btn-default btn-success" value="送信" id="next"></p>
+    </form>
+</body>
+</html>

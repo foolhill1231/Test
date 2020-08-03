@@ -1,0 +1,7 @@
+@charset "UTF-8";
+div {
+	width: 500px;
+	height: 400px;
+	background-image: url(logo.png),url(back.jpg);
+	background-position: center center,left top;
+}

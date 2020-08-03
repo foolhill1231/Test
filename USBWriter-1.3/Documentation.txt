@@ -1,0 +1,40 @@
+Documentation
+=============
+
+How To Use
+----------
+
+This tool is quite easy to use, you juste have to select an input file, a target device and then click on the Write button. You can use the Browse button to select an input file rather than typing its path by hand.
+
+If you have plugged or unplugged an USB drive after having started the tool, just click on the Refresh button to update the target list.
+
+Since I have used your tool, Windows does not allow me to format my USB drive at its initial storage size
+---------------------------------------------------------------------------------------------------------
+
+That's right, but that's a Windows issue. Windows implicitly considers that an USB drive has only one partition, and the actual partition pour your USB drive has the size of the image file you have just written to it. You have to delete the partition and create another one.
+
+From the Start Menu, right click on Computer and click on Manage, a window named Computer Management opens. Click on Disk Management, you will now see all disks connected to your computer and their partitions. Right click on the partition of your USB drive, and click on Delete volume. All space on your USB drive is now unallocated. Right click on the unallocated space and click on Create Simple Volume, a wizard opens. Follow instructions to format your USB drive (just press Next at each screen if unsure, that will be OK).
+
+Pretty annoying behavior, but since it's a Windows issue, I cannot fix that.
+
+Report the bug to Microsoft or switch to a more clever operating system (OSX is fine, GNU/Linux is better).
+
+Error descriptions
+------------------
+
+Here come the descriptions of every possible errors.
+
+[] Please select a readable source file.
+   This means that the file you have selected does not exist or is not readable. Make sure you can access the file. The files on your USB drive have not been altered.
+[] Please select a target
+   This means that you have selected no target in the list. The files on your USB drive have not been altered.
+[] An error occurred while opening the target volume.
+   This means that the program could not open the target volume, make sure the USB drive is still connected. The files on your USB drive have not been altered.
+[] An error occurred while locking the target volume.
+   This means that the volume could not be unmounted, probably because another process is using it. Unplug and re-plug your USB drive. The files on your USB drive have not been altered.
+[] An error occurred while opening the target device.
+   This means that the underlying device of the selected volume could not be opened. It's quite unusual, either you have several volumes on you USB drive, either you have setup a RAID on it. The files on your USB drive have not been altered, but the volume has been dismounted, you have to unplug and re-plug the drive to retry.
+[] An error occurred while reading the source file.
+   This means that an I/O error occurred while reading the source file. The files on your USB drive may have been altered, and the volume is dismounted, you have to unplug and re-plug the drive to retry.
+[] An error occurred while writing to the target device.
+   This means that an I/O error occured while writing to the target device. The files on your USB drive may have been altered, and the volume is dismounted, you have to unplug and re-plug drive to retry.

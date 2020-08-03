@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>
+        var car = {
+            color: "white",
+            speed: 30,
+            fuel: 100,
+        }
+        function carCheck() {
+            document.getElementById("speed").textContent = car.speed;
+            document.getElementById("gas").textContent = car.fuel;
+        }
+        </script>
+    </head>
+    <body>
+        <button onclick="carCheck()">車チェック</button>
+        <p>車の速さは<span id="speed"></span>km/h</p>
+        <p>車の燃料は<span id="gas"></span>l</p>
+    </body>
+</html>

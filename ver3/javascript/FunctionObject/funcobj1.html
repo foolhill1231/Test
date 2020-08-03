@@ -1,0 +1,68 @@
+<html>
+<head>
+    <script>
+        var data = [1, 6, 3, 4, 3, 2, 6, 8, 5, 9, 0];
+        function add1() {
+            var total = 0;
+            data.forEach(function (v) { total += v });
+            show([total]);
+        }
+
+        function add2() {
+            var total = 0;
+            var adder = function (v) { total += v };
+            data.forEach(adder);
+            show([total]);
+        }
+
+        function filter() {
+            var r = data.filter(function (v) { return v % 2 == 0 })
+            show(r);
+        }
+
+        function sort1() {
+            data.sort(function (a, b) { return a - b; });
+            show(data);
+        }
+
+        function sort2() {
+            data.sort(function (a, b) { return b - a; });
+            show(data);
+        }
+
+        function show(ary) {
+            document.getElementById("result").textContent = ary.join(",")
+        }
+
+        /*
+        window.onkeydown = function (e) {
+            document.getElementById("result").textContent = "keydown:" + e.keyCode;
+        }
+        */
+
+        window.onkeydown = mykeydown;
+        function mykeydown (e) {
+            document.getElementById("result").textContent = "keydown:" + e.keyCode;
+        }
+
+        var data = [1, 6, 3, 4, 3, 2, 6, 8, 5, 9, 0];
+        var result = [];
+        for (var i = 0 ; i < data.length ; i++) {
+            if (data[i] % 2 == 0) {
+                result.push(data[i]);
+            }
+        }
+        var data = [1, 6, 3, 4, 3, 2, 6, 8, 5, 9, 0];
+        var result = data.filter(function (v) { return v % 2 == 0 });
+    </script>
+</head>
+<body>
+    <button onclick="add1()">add1</button>
+    <button onclick="add2()">add2</button>
+
+    <button onclick="filter()">filter</button>
+    <button onclick="sort1()">sort(a-b)</button>
+    <button onclick="sort2()">sort(b-a)</button>
+    <p id="result"></p>
+</body>
+</html>

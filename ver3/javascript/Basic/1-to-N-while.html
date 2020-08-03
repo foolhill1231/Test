@@ -1,0 +1,23 @@
+﻿<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            function calcSum() {
+                var max = document.getElementById("max").value;
+                var total = 0, i = 1;
+                while (i <= max) {
+                    total += i;
+                    i++;
+                }
+                // ここにコードを記述
+                document.getElementById("val").textContent = max;
+                document.getElementById("sum").textContent = total;
+            }
+        </script>
+    </head>
+    <body>
+        <h2>1から<span id="val"></span>の合計は<span id="sum"></span></h2>
+        <input id="max" value="10" />
+        <button onclick="calcSum()">合計</button>
+    </body>
+</html>

@@ -1,0 +1,209 @@
+﻿<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        #canvas {width:500px; height:500px;}
+        .formula {
+            font-size: smaller;
+            font-style: italic;
+        }
+    </style>
+
+    <script>
+        "use strict";
+        var ctx, crossed = false, clickCount = 0;
+        var seg1 = new Segment(-3, -3, 3, 3), seg2 = new Segment(-3, 1, 5, -3);
+        var focusPos = new Pos(0, 0), clickPos = null;
+
+        function Segment(x0, y0, x1, y1) {
+            this.x0 = x0;
+            this.y0 = y0;
+            this.x1 = x1;
+            this.y1 = y1;
+        }
+
+        function Pos(x, y) {
+            this.x = x;
+            this.y = y;
+        }
+
+        function Vec(x, y) {
+            this.x = x;
+            this.y = y;
+        }
+
+        Vec.prototype.cross = function (v) {
+            return this.x * v.y - this.y * v.x;
+        }
+
+        function gobj(id) {
+            return document.getElementById(id);
+        }
+
+        function init() {
+            var canvas = document.getElementById("canvas");
+            ctx = canvas.getContext("2d");
+            canvas.onmousedown = mymousedown;
+            canvas.onmousemove = mymousemove;
+            canvas.onmouseup = mymouseup;
+
+            updateInfo();
+            repaint();
+        }
+
+
+        function updateInfo() {
+            var v = new Vec(seg2.x0 - seg1.x0, seg2.y0 - seg1.y0);
+            var v1 = new Vec(seg1.x1 - seg1.x0, seg1.y1 - seg1.y0);
+            var v2 = new Vec(seg2.x1 - seg2.x0, seg2.y1 - seg2.y0);
+            var cv1v2 = v1.cross(v2);
+            var cvv1 = v.cross(v1);
+            var cvv2 = v.cross(v2);
+            var t1 = cvv1 / cv1v2;
+            var t2 = cvv2 / cv1v2;
+            crossed = (0 <= t1 && t1 <= 1) && (0 <= t2 && t2 <= 1);
+
+            gobj("s1x0").textContent = seg1.x0;
+            gobj("s1y0").textContent = seg1.y0;
+            gobj("s1x1").textContent = seg1.x1;
+            gobj("s1y1").textContent = seg1.y1;
+            gobj("s2x0").textContent = seg2.x0;
+            gobj("s2y0").textContent = seg2.y0;
+            gobj("s2x1").textContent = seg2.x1;
+            gobj("s2y1").textContent = seg2.y1;
+            gobj("vx0").textContent = seg1.x0;
+            gobj("vy0").textContent = seg1.y0;
+            gobj("vx1").textContent = seg2.x0;
+            gobj("vy1").textContent = seg2.y0;
+
+            gobj("s0vx").textContent = v.x;
+            gobj("s0vy").textContent = v.y;
+            gobj("s1vx").textContent = v1.x;
+            gobj("s1vy").textContent = v1.y;
+            gobj("s2vx").textContent = v2.x;
+            gobj("s2vy").textContent = v2.y;
+
+            gobj("c0").textContent = cv1v2;
+            gobj("c1").textContent = cvv1;
+            gobj("c2").textContent = cvv2;
+            gobj("c3").textContent = v1.x * v2.x + v2.x * v2.y;
+
+            gobj("cross").textContent = crossed;
+        }
+
+        function mymousedown(e) {
+            var x = Math.floor((e.x + 25) / 50) - 5;
+            var y = Math.floor((e.y + 25) / 50) - 5;
+            clickPos = new Pos(x, y);
+            focusPos = new Pos(x, y);
+            repaint();
+        }
+
+        function mymousemove(e) {
+            if (clickPos) {
+                focusPos.x = Math.floor((e.x + 25) / 50) - 5;
+                focusPos.y = Math.floor((e.y + 25) / 50) - 5;
+                repaint();
+            }
+        }
+
+        function mymouseup(e) {
+            if (clickCount == 0) {
+                seg1.x0 = clickPos.x;
+                seg1.y0 = -clickPos.y;
+                seg1.x1 = focusPos.x;
+                seg1.y1 = -focusPos.y;
+            } else {
+                seg2.x0 = clickPos.x;
+                seg2.y0 = -clickPos.y;
+                seg2.x1 = focusPos.x;
+                seg2.y1 = -focusPos.y;
+            }
+
+            clickCount = (++clickCount) % 2;
+            clickPos = null;
+            repaint();
+            updateInfo();
+        }
+
+        function drawCircle(x, y, color) {
+            ctx.beginPath();
+            ctx.fillStyle = color;
+            ctx.arc(x * 50 + 250, y * 50 + 250, 3, 0, Math.PI * 2);
+            ctx.fill()
+        }
+
+        function drawLine(x0, y0, x1, y1, color, width) {
+            ctx.strokeStyle = color;
+            ctx.lineWidth = width;
+            ctx.beginPath();
+            ctx.moveTo(x0 * 50 + 250, y0 * -50 + 250);
+            ctx.lineTo(x1 * 50 + 250, y1 * -50 + 250);
+            ctx.stroke();
+        }
+
+        function repaint() {
+            ctx.fillStyle = "black";
+            ctx.fillRect(0, 0, 500, 500);
+
+            for (var x = -5 ; x < 6 ; x++) {
+                for (var y = -5 ; y < 6 ; y++) {
+                    drawCircle(x, y, crossed ? "gray" : "white");
+                }
+            }
+
+            drawLine(-5, 0, 5, 0, "blue", 0.5)
+            drawLine(0, -5, 0, 5, "blue", 0.5)
+            drawLine(seg1.x0, seg1.y0, seg1.x1, seg1.y1, "green", 3)
+            drawLine(seg2.x0, seg2.y0, seg2.x1, seg2.y1, "purple", 3)
+
+            drawCircle(focusPos.x, focusPos.y, "yellow")
+
+            if (clickPos && focusPos) {
+                drawLine(clickPos.x, -clickPos.y, focusPos.x, -focusPos.y, "white", 3)
+            }
+        }
+    </script>
+</head>
+<body onload="init()">
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <table>
+        <tr><td></td><td>始点</td><td>終点</td><td>ベクトル</td></tr>
+        <tr>
+            <td><span style="color:green">線分１ V1</span></td>
+            <td>(<span id="s1x0"></span>, <span id="s1y0"></span>)</td>
+            <td>(<span id="s1x1"></span>, <span id="s1y1"></span>)</td>
+            <td>(<span id="s1vx"></span>, <span id="s1vy"></span>)</td>
+        </tr>
+        <tr>
+            <td><span style="color:purple">線分２ V2</span></td>
+            <td>(<span id="s2x0"></span>, <span id="s2y0"></span>)</td>
+            <td>(<span id="s2x1"></span>, <span id="s2y1"></span>)</td>
+            <td>(<span id="s2vx"></span>, <span id="s2vy"></span>)</td>
+        </tr>
+        <tr>
+            <td><span style="color:red">始点間 V</span></td>
+            <td>(<span id="vx0"></span>, <span id="vy0"></span>)</td>
+            <td>(<span id="vx1"></span>, <span id="vy1"></span>)</td>
+            <td>(<span id="s0vx"></span>, <span id="s0vy"></span>)</td>
+        </tr>
+    </table>
+    <ol>
+        <li>
+            V1とV2の内積　<span class="formula">(V1.x * V2.x + V1.y * V2.y)</span> = <span id="c3"></span>
+        </li>
+        <li>
+            V1とV2の外積　<span class="formula">(V1.x * V2.y - V1.y * V2.x)</span> = <span id="c0"></span>
+        </li>
+        <li>
+            VとV1の外積　<span class="formula">(V.x * V1.y - V.y * V1.x)</span> = <span id="c1"></span>
+        </li>
+        <li>
+            VとV2の外積　<span class="formula">(V.x * V2.y - V.y * V2.x)</span> = <span id="c2"></span>
+        </li>
+        <li>
+            交差の有無 = <span id="cross"></span>
+        </li>
+    </ol>
+</body>
+</html>

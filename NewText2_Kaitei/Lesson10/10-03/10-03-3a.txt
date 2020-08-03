@@ -1,0 +1,15 @@
+<header>
+  〜（ヘッダー）〜
+</header>
+<nav>
+  〜（ナビゲーション）〜
+</nav>
+<main>
+  〜（メインコンテンツ）〜
+</main>
+<aside>
+  〜（サイドバー）〜
+</aside>
+<footer>
+  〜（フッター）〜
+</footer>

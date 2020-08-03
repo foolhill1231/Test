@@ -1,0 +1,45 @@
+/* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer strToke;
+        String line;
+        
+        while ((line = br.readLine()) != null) {
+            strToke = new StringTokenizer(line);
+            double n = Integer.parseInt(strToke.nextToken());
+            
+           // System.out.println(n);
+            
+        
+            if (n<1){
+            	System.out.println("0");
+            }else if (n==1){
+            	System.out.println("2");
+            }else {
+            	if (n%2==0) n=n-1;
+            	n=(n-1)/2;
+            	double p =2d;
+            	double a=3d;
+            	double b=2d;
+            		//System.out.println(a);
+            		//	System.out.println(b);
+            	for (double i=1;i<n+1;i++){
+            		p=p+(Math.pow(a,i));
+            		//	System.out.println(p);
+            		p=p+(Math.pow(b,i));
+            		
+            	}
+            	System.out.println(p);
+	}
+}
+}
+}

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.default {
+	border: 10px solid #ffd6d6;
+	background: #fff0f0;
+	padding: 1em;
+	width: 500px;
+}
+.border-box {
+	box-sizing: border-box;
+	border: 10px solid #ffd6d6;
+	background: #fff0f0;
+	padding: 1em;
+	width: 500px;
+}

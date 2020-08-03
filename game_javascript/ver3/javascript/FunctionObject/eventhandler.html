@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script>
+// クリックのイベントハンドラー
+document.onclick = function (e) {
+    console.log("document.onclick " + e.type);
+}
+
+// マウス押下のイベントハンドラー
+document.onmousedown = mymousedown;
+function mymousedown(e) {
+    console.log("document.onclick " + e.type);
+}
+
+function init() {
+    console.log("init");   
+}
+    </script>
+</head>
+<body onload="init()">
+    <body>
+        <p>画面は更新されません。ソースをご覧ください。</p>
+    </body>
+</body>
+</html>

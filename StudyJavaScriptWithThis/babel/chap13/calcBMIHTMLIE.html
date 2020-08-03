@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>BMI計算</title>
+		<style type="text/css">
+			.redText {
+				color: red;
+			}
+			.font16 {
+				font-size: 16pt;
+			}
+			.displayNone {
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id="headTitle">BMI計算</h1>
+		<p>
+			身長と体重を入力して計算ボタンをクリックしてください。
+		</p>
+		<p>
+			<div>
+				<input type="text" id="heightInput" name="height" placeholder="身長">cm<br>
+				<span id="heightInputMsg" class="redText"></span>
+			</div>
+			<div>
+				<input type="text" id="weightInput" name="weight" placeholder="体重">kg<br>
+				<span id="weightInputMsg" class="redText"></span>
+			</div>
+			<button type="button" id="calcBMIButton" onclick="onCalcBMIButtonClick()" disabled>計算</button>
+		</p>
+		<p id="resultMessage" class="displayNone">
+			あなたのBMI値は<span id="bmiResult" class="redText font16"></span>です。<br>
+			<span id="adviceMessage"></span>
+		</p>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
+		<script type="text/javascript" src="BMIIE.js"></script>
+		<script type="text/javascript" src="calcBMIIE.js"></script>
+	</body>
+</html>

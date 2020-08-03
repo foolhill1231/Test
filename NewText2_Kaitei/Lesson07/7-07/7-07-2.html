@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<title>表組みで行をグループ化した記述例</title>
+<link rel="stylesheet" href="7-07-2.css">
+</head>
+
+<body>
+<!-- セルの境界をわかりやすくするためHTML内にborder属性を使って罫線を指定していますが、罫線の指定は本来CSSで行います。 -->
+<table border="1">
+  <caption>
+    <strong>table要素の情報を行でグループ化したもの</strong>
+    <p>この表はtable要素の情報を行でまとめる要素の一覧です。 1行目は各要素名、2行目はその役割を表しています。
+    </p>
+  </caption>
+  <tr>
+    <th>thead</th>
+    <th>tbody</th>
+    <th>tfoot</th>
+  </tr>
+  <tr>
+    <td>ヘッダーグループ</td>
+    <td>本体グループ</td>
+    <td>フッターグループ</td>
+  </tr>
+</table>
+</body>
+
+</html>

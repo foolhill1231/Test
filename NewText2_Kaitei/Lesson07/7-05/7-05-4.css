@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+dl {
+	border: 1px solid #999;
+	width: 390px;
+	background-color: #999;
+}
+
+dt {
+	float: left;
+	width: 100px;
+	padding: 5px 0 5px 10px;
+	clear: both;
+	font-weight: bold;
+}
+
+dd {
+	width: 260px;
+	margin-left: 100px;
+	padding: 5px 19px 5px 10px;
+	border-left: 1px solid #999;
+	background-color: #FFF;
+}

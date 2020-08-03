@@ -1,0 +1,63 @@
+struct LOGFONT
+{
+	LONG    lfHeight;
+	LONG    lfWidth;
+	LONG    lfEscapement;
+	LONG    lfOrientation;
+	LONG    lfWeight;
+	BYTE    lfItalic;
+	BYTE    lfUnderline;
+	BYTE    lfStrikeOut;
+	BYTE    lfCharSet;
+	BYTE    lfOutPrecision;
+	BYTE    lfClipPrecision;
+	BYTE    lfQuality;
+	BYTE    lfPitchAndFamily;
+	BYTE    lfFaceName[32];
+};
+
+struct RGBQUAD
+{
+	BYTE	rgbBlue ;
+	BYTE	rgbGreen ;
+	BYTE	rgbRed ;
+	BYTE	rgbReserved ;
+} ;
+
+struct BITMAPFILEHEADER
+{
+	WORD    bfType; 
+	DWORD   bfSize; 
+	WORD    bfReserved1; 
+	WORD    bfReserved2; 
+	DWORD   bfOffBits; 
+};
+
+struct BITMAPINFOHEADER
+{
+	DWORD  biSize; 
+	LONG   biWidth; 
+	LONG   biHeight; 
+	WORD   biPlanes; 
+	WORD   biBitCount ;
+	DWORD  biCompression; 
+	DWORD  biSizeImage; 
+	LONG   biXPelsPerMeter ;
+	LONG   biYPelsPerMeter; 
+	DWORD  biClrUsed; 
+	DWORD  biClrImportant; 
+};
+
+struct BITMAPINFO
+{
+	BITMAPINFOHEADER	bmiHeader ;
+	RGBQUAD			bmiColors[256] ;
+} ;
+
+
+struct BITMAP256_SAMPLE
+{
+	BITMAPFILEHEADER	FileHeader ;
+	BITMAPINFOHEADER	bmiHeader ;
+	RGBQUAD			bmiColors[256] ;
+} ;

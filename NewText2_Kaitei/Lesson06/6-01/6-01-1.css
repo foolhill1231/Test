@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+a:link { color: #0000fe; }	/* 青 */
+a:visited { color:#808080; }	/* グレー */
+a:hover { color: #00ff00; }	/* 黄緑色（ライム） */
+a:focus  {color: #8b4513; }	/* 茶色 */

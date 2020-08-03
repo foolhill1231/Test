@@ -1,0 +1,15 @@
+import java.util.*;
+public class BinaryCode {
+	public String[] decode(String message) {
+		
+	}
+	public static void main(String[] args) {
+		BinaryCode temp = new BinaryCode();
+		System.out.println(temp.decode(String message));
+	}
+}
+
+
+// Powered by FileEdit
+// Powered by TZTester 1.01 [25-Feb-2003]
+// Powered by CodeProcessor

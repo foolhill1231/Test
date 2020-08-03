@@ -1,0 +1,26 @@
+﻿<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            function calcBMI() {
+                var h = document.getElementById("i0").value;
+                var w = document.getElementById("i1").value;
+                var bmi = w / (h * h);
+                if (bmi < 18.5) {
+                    document.getElementById("result").textContent = "やせ気味";
+                } else if (bmi >= 25) {
+                    document.getElementById("result").textContent = "太り気味";
+                } else {
+                    document.getElementById("result").textContent = "標準";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h2>BMI計算機</h2>
+        身長(m):<input id="i0" value="1.7" />
+        体重(kg):<input id="i1" value="65" />
+        <button onclick="calcBMI()">check</button>
+        <p id="result"></p>
+    </body>
+</html>

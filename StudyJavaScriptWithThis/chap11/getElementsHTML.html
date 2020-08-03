@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>さまざまな要素取得サンプル</title>
+		<style type="text/css">
+			.redText {
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<p>以下の選択肢から<span class="redText">該当するもの</span>を選択してください。</p>
+		<form action="#">
+			<label><input type="checkbox" name="skill" value="1">HTML</label>
+			<label><input type="checkbox" name="skill" value="2">JavaScript</label>
+			<label><input type="checkbox" name="skill" value="3">PHP</label>
+			<label><input type="checkbox" name="skill" value="4">SQL</label>
+		</form>
+		<button type="button" onclick="onTagButtonClick()">タグ名で取得</button><br>
+		<button type="button" onclick="onClassButtonClick()">クラス名で取得</button><br>
+		<button type="button" onclick="onNameButtonClick()">name属性で取得</button>
+		<p id="result">結果表示</p>
+		<script type="text/javascript" src="getElements.js"></script>
+	</body>
+</html>

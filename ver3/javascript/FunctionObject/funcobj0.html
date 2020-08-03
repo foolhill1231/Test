@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        #canvas {
+            width: 600px; height: 600px;
+        }
+    </style>
+    <script>
+function add(a, b) {
+    return a + b;
+}
+function mul(a, b) {
+    return a * b;
+}
+var calculator = add;
+var x = calculator(2, 3);   // x=5
+var calculator = mul;
+var y = calculator(2, 3);   // y=6
+
+var calculator = function div(a, b) {
+    return a / b;
+}
+var z = calculator(3, 2);   // z=1.5
+var a = x;
+
+
+function Person(name, energy) {
+    this.name = name;
+    this.energy = energy;
+    this.run = function () { this.energy -= 10; }
+    this.sayHello = function () { console.log("Hi! " + this.name); }
+}
+
+var p = new Person("Tanaka", 100);
+p.run();        // energyが90に減る
+p.sayHello();   // consoleに"Hi! Tanaka"と表示される
+
+// 例１
+var data = [1, 8, 0, 6, 3, 4, 9, 2];
+data.sort(function (a, b) {return a - b;})
+data;   // [0, 1, 2, 3, 4, 6, 8, 9]
+
+// 例２
+data.sort(function (a, b) { return b - a; })
+data;   // [9, 8, 6, 4, 3, 2, 1, 0]
+
+// 例３
+function mysort(a, b) {
+    return a - b;
+}
+data.sort(mysort);
+data;   // [0, 1, 2, 3, 4, 6, 8, 9]
+
+var data = ["hi", "hello", "say", "yes!"];
+data.sort(function (a, b) { return a.length - b.length; })
+data;   // hi, say, yes!, hello
+
+var data = [
+    { name: "Joe", age: 34 },
+    { name: "Sam", age: 29 },
+    { name: "Todd", age: 45 },
+    { name: "Bill", age: 18 },
+]
+data.sort(function (a, b) { return a.age - b.age; })
+data;   // Bill→Sam→Joe→Todd
+    </script>
+</head>
+<body>
+<h1>関数オブジェクトのサンプルです。画面には何も表示されません。</h1>
+</body>
+</html>

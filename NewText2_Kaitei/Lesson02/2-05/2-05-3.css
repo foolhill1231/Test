@@ -1,0 +1,5 @@
+﻿@charset "UTF-8";
+
+body { font-size: 100%; }
+p.case1 { font-size: 150%; }
+p.case2 { font-size: 1.2em; }

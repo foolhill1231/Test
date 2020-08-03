@@ -1,0 +1,14 @@
+@charset "UTF-8";
+#box1 {
+	width: 200px;
+	height: 200px;
+	background: #faa3a3;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+#box2 {
+	width: 200px;
+	height: 200px;
+	background: #afc9f1;
+}

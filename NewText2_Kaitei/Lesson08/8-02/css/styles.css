@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+:root {
+  font-size: 15px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: #257A01;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* Header */
+
+.hm-Header {
+  display: block;
+  background-color: #FFF;
+  padding: 1.5rem 2rem;
+}
+
+.hm-Header a {
+  color: #444;
+}
+
+.hm-Header a:hover {
+  color: #45C80D;
+}
+
+.hm-Header_Logo {
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.hm-Header_NavItems {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  list-style-position: outside;
+  margin: 0;
+  padding: 0;
+}
+
+.hm-Header_NavItem {
+  margin: 0 1rem 0 0;
+  text-transform: uppercase;
+}
+
+.hm-Header_NavItem:last-child {
+  margin-right: 0;
+}
+
+@media all and (min-width: 600px) {
+
+  .hm-Header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hm-Header_Logo {
+    margin: 0;
+  }
+
+  .hm-Header_NavItem {
+    margin: 0 2rem 0 0;
+    text-transform: uppercase;
+  }
+}

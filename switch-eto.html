@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      window.onload = function () {
+        var str = "";
+        var eto = "";
+        var genzai = new Date();
+        var y = genzai.getFullYear();
+        var m = genzai.getMonth() + 1;
+        var d = genzai.getDate();
+
+        var week = genzai.getDay();
+
+        var weeks = ["日", "月", "火", "水", "木", "金", "土"];
+        var w = weeks[week];
+        str = weeks[week];
+
+        var j = y % 10;
+        var jukan = [
+          "庚（かのえ）",
+          "辛（かのと）",
+          "壬（みずのえ）",
+          "癸（みずのと）",
+          "甲（きのえ）",
+          "乙（きのと）",
+          "丙（ひのえ）",
+          "丁（ひのと）",
+          "戊（つちのえ）",
+          "己（つちのと）",
+        ];
+        var eto1 = jukan[j];
+
+        var j2 = y % 12;
+        var junishi = [
+          "申（さる）",
+          "酉（とり）",
+          "戌（いぬ）",
+          "亥（い）",
+          "子（ね）",
+          "丑（うし）",
+          "寅（とら）",
+          "卯（う）",
+          "辰（たつ）",
+          "巳（み）",
+          "午（うま）",
+          "未（ひつじ）",
+        ];
+        var eto2 = junishi[j2];
+        var eto = eto1 + eto2;
+
+        // document.getElementById("day").textContent = str;
+        document.getElementById("day2").textContent =
+          y + "年" + m + "月" + d + "日　" + w + "曜日　" + eto;
+      };
+    </script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <h1>今日は<span id="day"></span>曜日</h1> -->
+    <h2><span id="day2"></span></h2>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="Form.css">
+<title>サンプル</title>
+</head>
+<body>
+<script src="Sample6.js" charset="UTF-8"></script>
+<form name="myform" action="Sample6.html">
+<select name ="items">
+<option value="りんご">りんご</option>
+<option value="みかん">みかん</option>
+<option value="もも">もも</option>
+</select>
+<select name ="num">
+<option value=1>1</option>
+<option value=2>2</option>
+<option value=3>3</option>
+</select>
+<input type="button" value="追加"  onclick="add()"/>
+<input type="button" value="クリア"  onclick="cls()"/>
+<input type="button" value="合計"  onclick="calc()"/>
+</form>
+<table id="table">
+<tr>
+<th>商品名</th><th>価格</th><th>個数</th><th>計</th>
+</tr>
+</table></body>
+</html>

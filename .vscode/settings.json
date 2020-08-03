@@ -1,0 +1,41 @@
+{
+  "java.home": "C:\\Program Files\\Java\\jdk1.8.0_241",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "editor.fontSize": 16,
+  "editor.renderWhitespace": "all",
+  "editor.fontFamily": "'SourceHanCodeJP-Medium','Source HanCode JP,Consolas, 'Courier New', monospace",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "all",
+  "editor.renderControlCharacters": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.smoothScrolling": true,
+  "editor.minimap.showSlider": "always",
+  "window.openFoldersInNewWindow": "on",
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.tabSizing": "shrink",
+  "breadcrumbs.enabled": true,
+  "html.format.extraLiners": "",
+  "html.format.maxPreserveNewLines": 2,
+  "html.format.wrapLineLength": 0,
+  "html.format.unformatted": null,
+  "html.format.contentUnformatted": "pre, code, textarea, title, h1, h2, h3, h4, h5, h6, p",
+  "css.validate": false,
+  // "php.validate.executablePath": "C:/xampp/php/php.exe", // Windows
+  // "php.validate.executablePath": "/usr/bin/php", // Mac
+  "git.ignoreMissingGitWarning": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.variables": {
+    "lang": "ja"
+},
+"python.formatting.provider": "yapf"
+}

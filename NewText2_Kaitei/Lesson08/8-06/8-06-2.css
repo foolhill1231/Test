@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+ol#breadcrumbs li {
+	display: inline;
+	list-style-type: none;
+}

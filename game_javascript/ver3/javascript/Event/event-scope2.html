@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .card {
+            width: 50px;
+            height: 70px;
+            border: 1px solid blue;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 26px;
+            background-color: white;
+            box-shadow: rgb(128, 128, 128) 5px 5px;
+        }
+    </style>
+    <script>
+        var strike = Math.floor(Math.random() * 3);
+        window.onload = function () {
+            var elements = document.querySelectorAll("*");
+            for (var i = 0 ; i < elements.length ; i++) {
+                //elements[i].addEventListener("click", myhandler, false);
+                //elements[i].addEventListener("click", myhandler, true);
+                elements[i].onclick = myhandler;
+            }
+        }
+
+        function myhandler(e) {
+            console.log(e.currentTarget);
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+            <td class="card" id="card0"> </td>
+            <td class="card" id="card1"> </td>
+            <td class="card" id="card2"> </td>
+            </tr>
+        </table>
+        <button>Shuffle</button>
+    </div>
+    <p>イベントのbubblingのサンプルです。どのようなイベントが発生しているかはデバッガのコンソールを確認してください</p>
+</body>
+</html>

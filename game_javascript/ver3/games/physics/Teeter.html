@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        #canvas {
+            width: 600px; height: 600px;
+        }
+
+    </style>
+    <script src="Tiny2D.js"></script>
+    <script>
+        "use strict";
+        var ctx, engine, ball, mover, timer, startTime = 0;
+        var mousePos = null, message = "", sign = 1;
+        var walls = [
+            [-50, -50, 700, 100],
+            [-50, 550, 700, 100],
+            [-50, -50, 100, 700],
+            [550, -50, 100, 700],
+            [100, 0, 50, 200],
+            [100, 250, 50, 250],
+            [150, 300, 200, 50],
+            [400, 300, 50, 150],
+            [200, 400, 200, 50],
+            [300, 500, 200, 50],
+        ];
+
+        var holes = [
+            [200, 100], [350, 125], [500, 150], [270, 520]
+        ];
+
+        function init() {
+            // エンジン初期化 & イベントハンドラ設定
+            engine = new Engine(-100, -100, 800, 800, 0, 0);
+            var canvas = document.getElementById("canvas");
+            canvas.onmousedown = mymousedown;
+            canvas.onmousemove = mymousemove;
+            canvas.onmouseup = mymouseup;
+
+            // 壁
+            walls.forEach(function (w, i) {
+                var r = new RectangleEntity(w[0], w[1], w[2], w[3]);
+                r.color = "gray";
+                engine.entities.push(r);
+            });
+            mover = new RectangleEntity(200, 200, 250, 50);
+            mover.color = "gray";
+            engine.entities.push(mover);
+
+            // 穴
+            holes.forEach(function (h) {
+                var r = new CircleEntity(h[0], h[1], 20, BodyStatic);
+                r.color = "red";
+                r.onhit = function (me, peer) {
+                    stop("GAME OVER!!");
+                }
+                engine.entities.push(r);
+            });
+
+            // ボール
+            ball = new CircleEntity(70, 70, 10, BodyDynamic);
+            ball.color = "silver";
+            engine.entities.push(ball);
+
+            // ゴール
+            var goal = new CircleEntity(525, 525, 20, BodyStatic);
+            goal.color = "green";
+            goal.onhit = function (me, peer) {
+                stop("CLEARED !!");
+            }
+            engine.entities.push(goal);
+
+            // その他(Canvas, Timer)の初期化
+            ctx = canvas.getContext("2d");
+            ctx.font = "20pt Arial";
+            startTime = new Date();
+            timer = setInterval(tick, 50);
+        }
+
+        function tick() {
+            engine.step(0.01);  // 物理エンジンの時刻を進める
+            sign *= (mover.x > 400 || mover.x < 200) ? -1 : 1;
+            mover.x = mover.x + 5 * sign;
+            repaint();          // 再描画
+        }
+
+        function stop(msg) {
+            message = msg;
+            clearInterval(timer);
+            timer = NaN;
+            repaint();
+        }
+
+        function mymousedown(e) {
+            mousePos = { x: e.x, y: e.y }
+        }
+
+        function mymouseup(e) {
+            mousePos = null;
+            engine.setGravity(0, 0);
+        }
+
+        function mymousemove(e) {
+            if (mousePos) {
+                var gx = (e.x - mousePos.x) / 10;
+                var gy = (e.y - mousePos.y) / 10;
+                engine.setGravity(gx, gy);
+            }
+        }
+
+        function repaint() {
+            // 背景クリア
+            ctx.fillStyle = "black";
+            ctx.fillRect(0, 0, 600, 600);
+
+            // ボール・壁の描画
+            for (var i = 0 ; i < engine.entities.length; i++) {
+                var e = engine.entities[i];
+                ctx.fillStyle = e.color;
+                switch (e.shape) {
+                    case ShapeCircle:
+                        ctx.beginPath();
+                        ctx.arc(e.x, e.y, e.radius, 0, Math.PI * 2);
+                        ctx.closePath();
+                        ctx.fill();
+                        break;
+                    case ShapeRectangle:
+                        ctx.fillRect(e.x, e.y, e.w, e.h);
+                        break;
+                }
+            }
+
+            ctx.fillText(message, 220, 280);
+            ctx.fillStyle = "yellow";
+            var elapsed = Math.floor((new Date().getTime() - startTime) / 1000);
+            ctx.fillText("time:" + ('000' + elapsed).slice(-3), 50, 590);
+        }
+    </script>
+</head>
+<body onload="init()">
+    <canvas id="canvas" width="600" height="600"></canvas>
+</body>
+</html>

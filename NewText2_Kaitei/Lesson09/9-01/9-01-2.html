@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>フォームの作成例</title>
+</head>
+<body>
+<h1>アンケート</h1>
+<form action="" method="">
+<h2>お名前</h2>
+<p>
+  <input type="text" name="name" id="name">
+</p>
+<h2>お客様の満足度を教えてください</h2>
+<p>
+  <select name="満足度">
+    <option value="満足">満足</option>
+    <option value="不満">不満</option>
+  </select>
+</p>
+<h2>ご利用頻度</h2>
+<p>
+  <input type="checkbox" name="check" value="初めて">初めて
+  <input type="checkbox" name="check" value="週1回程度">週1回程度
+  <input type="checkbox" name="check" value="月1回程度">月1回程度
+</p>
+<h2>キャンペーンメール</h2>
+<p>
+  <input type="radio" name="campaign" value="必要">必要
+  <input type="radio" name="campaign" value="不要">不要
+</p>
+<h2>メッセージ</h2>
+<p>
+  <textarea name="comment" cols="50" rows="5" id="comment">メッセージがあればお願いします</textarea>
+</p>
+<p>
+  <input type="submit" name="submit" value="送信する">
+</p>
+</form>
+</body>
+</html>

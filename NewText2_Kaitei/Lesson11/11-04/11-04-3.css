@@ -1,0 +1,5 @@
+@charset "UTF-8";
+.populary li:nth-child(2) {
+	color: #ff5858;
+	font-weight: bold;
+}

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <META charset="UTF-8">
+        <script>
+            function setRGB() {
+                var r = document.getElementById("r").value;
+                var g = document.getElementById("g").value;
+                var b = document.getElementById("b").value;
+                var c = "#" + hex(r) + hex(g) + hex(b);
+                document.body.style.backgroundColor = c;
+                document.getElementById("hex").textContent = c;
+            }
+            function hex(v) {
+                v = parseInt(v);
+                var hex = v.toString(16);
+                if (v < 16) { hex = "0" + hex }
+                return hex;
+            }
+        </script>
+    </head>
+    <body>
+        <h1 style="background-color:white">RGB:<span id="hex"></span></h1>
+        <p>
+        R:<input type="range" min="0" max="255" id="r" onchange="setRGB()" /><br />
+        G:<input type="range" min="0" max="255" id="g" onchange="setRGB()" /><br />
+        B:<input type="range" min="0" max="255" id="b" onchange="setRGB()" />
+        </p>
+    </body>
+</html>

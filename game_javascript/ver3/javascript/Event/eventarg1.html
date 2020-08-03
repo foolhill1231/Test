@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script>
+window.onload = function () {
+    var nodes = document.getElementsByClassName("target");
+    for (var i = 0 ; i < nodes.length ; i++) {
+        nodes[i].onclick = myhandler;
+        nodes[i].onmousedown = myhandler;
+        nodes[i].onmouseup = myhandler;
+        nodes[i].onchange = myhandler;
+        nodes[i].onfocus = myhandler;
+    }
+}
+function myhandler(e) {
+    console.log(e.type + ": tagName=" + e.target.tagName);
+    console.log("  clientX=" + e.clientX + " screenX=" + e.screenX + " pageX=" + e.pageX);
+}
+    </script>
+</head>
+<body>
+    <button class="target">ボタン</button>
+    <input class="target" type="range"/>
+    <p class="target">パラグラフ</p>
+    <h3>デベロッパーツール（デバッガ）を起動してコンソール出力をご覧ください</h3>
+</body>
+</html>

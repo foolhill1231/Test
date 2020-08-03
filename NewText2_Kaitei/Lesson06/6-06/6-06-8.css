@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+:root { font-size: 15px;}
+div { margin: 5em;}
+
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+a {
+	color: #007bff;
+	text-decoration: none;
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+}
+
+.test_Button {
+	display: block;
+	width: 80%;
+	color: #ffffff;
+	font-size: 1.1rem;
+	line-height: 1.1;
+	background-color: #28a9ff;
+	border: 1px solid #121259;
+	margin: 0 auto;
+	padding: 2rem 0;
+	text-align: center;
+	border-radius: 0.2rem;
+}
+
+.test_Button:hover {
+	display: block;
+	color: #FFF;
+	background-color: #1b5901;
+	border: 1px solid #1b5901;
+}
+
+/* 以下、書籍に掲載されたCSS */
+.gradients_01 { background-image: radial-gradient(ellipse, #2bff88, #2bd2ff);}
+.gradients_02 { background-image: radial-gradient(circle, #2bff88, #2bd2ff);}
+.gradients_03 { background-image: radial-gradient(ellipse, #2bff88, #2bd2ff,#fa8bff);}
+.gradients_04 { background-image: radial-gradient(circle, #2bff88, #2bd2ff,#fa8bff);}
+.gradients_05 { background-image: radial-gradient(ellipse closest-side, #2bff88, #2bd2ff,#fa8bff);}
+.gradients_06 { background-image: radial-gradient(ellipse farthest-corner at 0px 5px, #2bff88, #2bd2ff,#fa8bff); }

@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        #canvas {
+            width: 600px; height: 600px;
+        }
+    </style>
+    <script src="Tiny2D.js"></script>
+    <script>
+        "use strict";
+        var ctx, engine;
+
+        function init() {
+            var r;
+            engine = new Engine(0, 0, 800, 800, 0, 10);
+
+            r = new CircleEntity(100, 100, 10, BodyDynamic, 0.9);
+            r.color = "yellow";
+            engine.entities.push(r);
+
+            r = new LineEntity(0, 200, 200, 250);
+            engine.entities.push(r);
+
+            r = new LineEntity(500, 200, 200, 350);
+            engine.entities.push(r);
+            r = new RectangleEntity(50, 400, 350, 50);
+            r.tag = "floor";
+            engine.entities.push(r);
+
+            ctx = document.getElementById("canvas").getContext("2d");
+            setInterval(tick, 50);
+        }
+
+        var colors = ["yellow", "green", "orange", "blue", "white"];
+
+        function repaint() {
+            ctx.fillStyle = "black";
+            ctx.fillRect(0, 0, 600, 600);
+            ctx.fillStyle = "yellow";
+            ctx.strokeStyle = "green";
+            for (var i = 0 ; i < engine.entities.length; i++) {
+                var e = engine.entities[i];
+                ctx.fillStyle = colors[i % colors.length];
+                switch (e.shape) {
+                    case ShapeCircle:
+                        ctx.beginPath();
+                        ctx.arc(e.x, e.y, e.radius, 0, Math.PI * 2);
+                        ctx.closePath();
+                        ctx.fill();
+                        break;
+                    case ShapeRectangle:
+                        ctx.fillRect(e.x, e.y, e.w, e.h);
+                        break;
+                    case ShapeLine:
+                        ctx.beginPath();
+                        ctx.moveTo(e.x0, e.y0);
+                        ctx.lineTo(e.x1, e.y1);
+                        ctx.stroke();
+                        break;
+                }
+            }
+        }
+        
+        function tick() {
+            engine.step(0.01);
+            repaint();
+        }
+    </script>
+</head>
+<body onload="init()">
+    <canvas id="canvas" width="600" height="600"></canvas>
+</body>
+</html>

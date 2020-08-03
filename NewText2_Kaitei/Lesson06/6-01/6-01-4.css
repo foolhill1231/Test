@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+a {
+	color: #00bfff;
+	display: inline-block;
+	transition: 0.5s;
+}
+a:hover {
+	color: #ff8c00;
+	transform: rotate(7deg);
+}

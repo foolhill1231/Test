@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+
+    <script>
+      function calcBMI() {
+        var tall = document.getElementById("tall").value;
+        var weight = document.getElementById("weight").value;
+        var bmi = weight / (tall * tall);
+        var kijun1 = 18.5;
+        var kijun2 = 25;
+
+        if (bmi < kijun1) {
+          document.getElementById("result").textContent = "痩せすぎ";
+        } else if (bmi >= kijun2) {
+          document.getElementById("result").textContent = "肥満気味";
+        } else {
+          document.getElementById("result").textContent = "標準";
+        }
+        document.getElementById("bmi").textContent = "BMI値:" + bmi;
+      }
+    </script>
+  </head>
+  <title>Document</title>
+
+  <body>
+    <h2>BMI</h2>
+    身長(m):<input id="tall" value="1.7" /> 体重(kg):<input
+      id="weight"
+      value="60"
+    />
+    <button onclick="calcBMI()">ＢＭＩ</button>
+    <p id="result"></p>
+    <p id="bmi"></p>
+  </body>
+</html>

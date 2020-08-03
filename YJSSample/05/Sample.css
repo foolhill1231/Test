@@ -1,0 +1,16 @@
+body{
+   background-color: cornflowerblue;
+   color: white;
+   font-size: 2em;
+   font-family: cursive;
+}
+#on{
+   background-color: deeppink;
+   color: white;
+   font-family: cursive;
+}
+#off{
+   background-color: cornflowerblue;
+   color: white;
+   font-family: cursive;
+}

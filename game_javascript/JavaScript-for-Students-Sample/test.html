@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas
+      id="canvas"
+      width="800"
+      height="600"
+      style="border: blue solid 1px;"
+    >
+    </canvas>
+
+    <script>
+      var canvas = document.getElementById("canvas");
+      var ctx = canvas.getContext("2d");
+
+      // ctx.fillRect(200, 300, 200, 100);
+      // ctx.clearRect(230, 330, 200, 100);
+
+      ctx.beginPath();
+      ctx.moveTo(75, 40);
+      // ctx.lineTo(100, 400);
+      // ctx.lineTo(500, 400);
+
+      // var start = (Math.PI / 180) * 0;
+      // var end = (Math.PI / 180) * 240;
+      // ctx.arc(100, 100, 60, start, end, true);
+      ctx.strokeStyle = "rgb(0,255,0)";
+      ctx.fillStyle = "blue";
+      ctx.globalAlpha = 0.3;
+      ctx.lineWidth = 5;
+
+      ctx.bezierCurveTo(75, 37, 70, 25, 50, 25);
+      ctx.bezierCurveTo(20, 25, 20, 62.5, 20, 62.5);
+      ctx.bezierCurveTo(20, 80, 40, 102, 75, 120);
+      ctx.bezierCurveTo(110, 102, 130, 80, 130, 62.5);
+      ctx.bezierCurveTo(130, 62.5, 130, 25, 100, 25);
+      ctx.bezierCurveTo(85, 25, 75, 37, 75, 40);
+      // ctx.stroke();
+      // ctx.closePath();
+      ctx.fill();
+    </script>
+  </body>
+</html>

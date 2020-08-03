@@ -1,0 +1,13 @@
+body{
+   background-color: cornflowerblue;
+   color: white;
+   font-size: 2em;
+   font-family: fantasy;
+   background-image: url(title.jpg); 
+   background-repeat: repeat-x;
+}
+h1{
+   color: white;
+   font-size: 4em;
+   font-family: fantasy;
+}

@@ -1,0 +1,16 @@
+﻿@charset "UTF-8";
+
+h2 {
+	background: #d2e4d4 url(images/bg-title.gif) repeat-x 0 0;
+	border-bottom: 2px ridge #fff;
+	padding: 11px 10px 5px;
+	line-height: 1em;
+	margin-bottom: 1em;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+h2 + p { color: #03F; }
+

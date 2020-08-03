@@ -1,0 +1,11 @@
+﻿@charset "UTF-8";
+
+h2,h3,p {
+	color: #000000;
+}
+p { font-size: 14px; }
+h3 { color: #6a94ef; }
+.note {
+	color: #6e9c7d;
+	font-size: 18px;
+}

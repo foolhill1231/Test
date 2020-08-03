@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, WalkinTracker!</string>
+    <string name="app_name">お散歩の友</string>
+    <string name="map_key">0z3RcljpAsO99nwsm-tU0aT31DCMTr_H3rAdIwg</string>
+    <string name="chronometer_format">%s</string>
+    <string name="save">"データ保存"</string>
+    <string name="list">"一覧"</string>
+    <string name="quit">"終了"</string>
+    <string name="empty">"表示するデータがありません"</string>
+    <string name="ret">戻る</string>
+    <string name="position">スタート位置:</string>
+    <string name="km">km</string>
+    <string name="eltime">&quot;経過時間:&quot;</string>
+    <string name="second">&quot;秒&quot;</string>
+    <string name="distance">&quot;移動距離:&quot;</string>
+</resources>
